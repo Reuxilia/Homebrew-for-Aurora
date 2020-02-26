@@ -1,0 +1,151 @@
+<elements>
+    <element name="Elapidae" type="Race" source="Homebrew" id="ID_BREW_RACE_ELAPIDAE">
+        <description>
+            <p>Elapidae are a serpentine race of unkown origin, making their home in only the largest oceans and longest shores. They are humanoid from the waist up, with scaly skin, a lizard-like head and long tails. Rarely seen before the last two hundred years, Eladidae are not considered a common race - the vast majority of them still stay far beneath the surface, never making contact with any of the land-dwelling races.</p>
+            <h4>HOME IN THE WATER</h4>
+            <p>Elapidae have evolved for life in the depths of the ocean: they are far better swimmers than they are slitherers. Many of those who work with the land-dwelling races still gravitate towards the sea, becoming renowned sailors and fishermen. They can use their amphibious nature to their advantage, working jobs far underwater where an air-breathing creature would be unable to go. Their structures stretch from the ocean depths to just above the surface. These underwater constructions are elaborate, built to incorporate coral reefs and natural caverns. Fro above the water, they look like a series of bright lights surrounding a dark obelisk.</p>
+            <p class="indent"></p>
+            <h4>RELIGIOUS FERVOR</h4>
+            <p>Religion is at the heart of Elapidian Society, and the great stone obelisks are at the heart of Elapidian religion. The obelisks are rare, eerily smooth stones made from a jet black rock, poking far above the ocean floor. According to their priesthood, the obelisks mark where enlightened ones asceneded to some higher realm, where they now watch over the Elapidae as gods. Elapidian Doctrine tells of these gods' return to the material plane, where they will create a pure and just heaven on earth. The Elapidae regularily attempt to predict the time of this return, but they have yet to be successful.</p>
+            <p class="indent"></p>
+            <h4>ELAPIDAE NAMES</h4>
+            <p>Elapidae are given names by their parents at birth, in accordance to tradition. Names are often reused over and over again, with males often having the name of their father and females the name of their mother.</p>
+            <p class="indent"></p>
+            <h4>Elapidae Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Your Wisdom score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Elapidae mature at the same rate as humans. On average, they live about 150 years.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong>The Elapidae tend towards extremes. They are most often either good or evil, not neutral. They are most often lawful creatures, preferring to work in large societies.</p>
+            <p class="indent"><strong><em>Size.</em></strong>Most Elapidae stand at about 6 feet tall, though their total body length including the tail is often longer than 10 feet. Their weight ranges from 250 to 350 pounds. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet and you have a swimming speed of 40 feet.</p>
+            <p class="indent"><strong><em>Amphibious.</em></strong>You can breathe air and water.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong>Accustomed to the darkest depths of the ocean, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and Abyssal.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong>Two main subraces of Elapidae are know to exist: Depthseekers and Shoreseekers.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Arcanoss, Devioss, Necross, Neoss, Damoss, Hypnoss, Muross, Oratoss, Risloss, Traloss, Vieoss, Zaloss</set>
+            <set name="names" type="female">Alossa, Chalissa, Karassa, Mirissa, Rowassa, Shaessa, Telessa, Westrassa, Zelissa</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="wisdom" value="2" />
+            <stat name="innate speed" value="25" bonus="base" />
+            <stat name="innate speed:swim" value="40" bonus="base" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_AMPHIBIOUS" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_DARKVISION" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELAPIDAE_SUBRACE" />
+        </rules>
+    </element>
+
+    <element name="Amphibious" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_AMPHIBIOUS">
+        <description>
+            <p>You can breathe air and water.</p>
+        </description>
+        <sheet>
+            <description>You can breathe air and water.</description>
+        </sheet>
+    </element>
+
+    <element name="Darkvision" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_DARKVISION">
+        <description>
+            <p>Accustomed to the darkest depths of the ocean, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>Accustomed to the darkest depths of the ocean, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+
+    <element name="Elapidae Subrace" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ELAPIDAE_SUBRACE">
+        <description>
+            <p>Two main subraces of Elapidae are know to exist: Depthseekers and Shoreseekers.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <select type="Sub Race" name="Elapidae Subrace" supports="Elapidae" />
+        </rules>
+    </element>
+
+    <element name="Depthseeker" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_DEPTHSEEKER">
+        <supports>Elapidae</supports>
+        <description>
+            <p>As a depthseeker, you come from the dark depths of the ocean. By spending much of your life swimming in deep and dangerous waters, you have become dextrous and your scales have become permanently slippery. You have also sharpened your darkvision, allowing you to see better in your natural territory.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2.<br />
+                <span class="feature">Superior Darkvision.</span>Your darkvision has a radius of 120 feet.<br />
+                <span class="feature">Slippery.</span>You have advantage on ability checks and saving throws made to escape a grapple.<br />
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="dexterity" value="2" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_SUPERIOR_DARKVISION" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_SLIPPERY" />
+        </rules>
+    </element>
+
+    <element name="Superior Darkvision" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_SUPERIOR_DARKVISION">
+        <description>
+            <p>Your darkvision has a radius of 120 feet.</p>
+        </description>
+        <sheet>
+            <description>Your darkvision has a radius of 120 feet.</description>
+        </sheet>
+    </element>
+
+    <element name="Slippery" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_SLIPPERY">
+        <description>
+            <p>You have advantage on ability checks and saving throws made to escape a grapple.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on ability checks and saving throws made to escape a grapple.</description>
+        </sheet>
+    </element>
+
+    <element name="Shoreseeker" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_SHORESEEKER">
+        <supports>Elapidae</supports>
+        <description>
+            <p>As a shoreseeker, you make your home on the vast shores and beaches lining the ocean. Shoreseekers have much more contact with other intelligent races, and have become good tradesmen an mercenaries, often working for anyone that pays enough gold. They spend a great deal of their time on land, dealing with the other races and creating sea-side ports and cities.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2.<br />
+                <span class="feature">Landborn.</span>Your base walking speed increases to 30 feet.<br />
+                <span class="feature">Merchant's Insight.</span>You have advantage on ability checks made to determine the selling price or to haggle the price of an object or service.<br />
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="charisma" value="2" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_LANDBORN" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_MERCHANTS_INSIGHT" />
+        </rules>
+    </element>
+
+    <element name="Landborn" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_LANDBORN">
+        <description>
+            <p>Your base walking speed increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description>Your base walking speed increases to 30 feet.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+        </rules>
+    </element>
+
+    <element name="Merchant's Insight" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_MERCHANTS_INSIGHT">
+        <description>
+            <p>You have advantage on ability checks made to determine the selling price or to haggle the price of an object or service.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on ability checks made to determine the selling price or to haggle the price of an object or service.</description>
+        </sheet>
+    </element>
+
+</elements>    

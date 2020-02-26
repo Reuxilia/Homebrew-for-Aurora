@@ -1,0 +1,109 @@
+<elements>
+    <element name="Monarch Gryphon" type="Race" source="Homebrew" id="ID_BREW_RACE_Monarch_Gryphon">
+        <description>
+            <p></p>
+            <h4>DESCRIPTION</h4>
+            <p>Powerful and Intelligent avian carnivores, similar to their Savage relatives, the Griffins. Monarch Gryphons are unique in that they leave their young to raise and fend for themselves until they reach an applicable age to re-enter their hidden society. These Gryphons also grow at relatively high rates early in their lives, reaching full maturity within a few years to months, depending on how much food they consume. Monarch Gryphons are Proud creatures, and even infants have quite a bit of esteem. Like their Savage counterparts, Monarch Gryphons are also very Vicious creatures, whom tend to dislike any whom are not one of their own. </p>
+            <p class="indent"></p>
+            <h4>Monarch Gryphon Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Monarch Gryphons gain a Strength Increase of +2, a Constitution Increase of +1 and an Dexterity Increase of +1.</p>
+            <p class="indent"><strong><em>Age.</em></strong>Monarch Gryphons mature at the age of 5 and live for up to 120 years.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong>Being gryphons, Monarch Gryphons normally are neutral in alignment.</p>
+            <p class="indent"><strong><em>Size.</em></strong>Monarch Gryphons are rather large, growing bigger later on in life.</p>
+            <p class="indent"><strong><em>Speed.</em></strong>You have a walking speed of 30, and a flying speed of 60.</p>
+            <p class="indent"><strong><em>Nightvision.</em></strong>Accustomed to flying in the night sky during night time hunts, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Keen Eyes.</em></strong>Has advantage on Wisdom (Perception) checks that rely on sight. You alre also proficient in the Perception skill.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>Monarch Gryphons can understand Common through listening and can be taught to read it, but they cannot speak it. They can however speak with other Gryphons and Birds, or bird-like creatures, freely in Squawks and Chirps. Additionally, they can understand one additional language, based on where they were raised. When casting a spell, the verbal componant consists of chirps and whistles.</p>
+            <p class="indent"><strong><em>Flight.</em></strong>As a Bonus Action a Monarch Gryphon can take flight, gaining 50% bonus movement and causing melee attackers disadvantage. Landing also requires a Bonus Action, but you can land for free if performing a Melee Action or an Action that requires touches the ground. Landing does not require a Bonus Action for Huge Monarch Gryphons. At Level 5; can Dive Bomb enemies, using either their Beak or Talons, which will have advantage if the Monarch Gryphon is Huge. This Dive Bomb is functioned and treated as a Charge.</p>
+            <p class="indent"><strong><em>Beak and Talon.</em></strong>You have fierce natural attacks. Your beak does 1d10 piercing and your talons do 1d8 slashing. These can use either Dexterity or Strength.</p>
+            <p class="indent"><strong><em>Tough Hide</em></strong>A Monarch Gryphon's hide is extremely tough. You have natural armor that is 13 + your Dex modifier.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="innate speed:fly" value="60" bonus="base" />
+            <stat name="strength" value="2" />
+            <stat name="constitution" value="1" />
+            <stat name="dexterity" value="1" />
+            <grant type="Size" id="ID_SIZE_LARGE" />
+            <grant type="Size" id="ID_SIZE_HUGE" level="10" requirements="!ID_SIZE_LARGE" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_KEEN_EYES" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_NIGHTVISION" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_FLIGHT" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_LANGUAGE" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_BEAK_AND_TALON" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_TOUGH_HIDE" />
+        </rules>
+    </element>
+
+    <element name="Keen Eyes" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_KEEN_EYES">
+        <description>
+            <p>Has advantage on Wisdom (Perception) checks that rely on sight. You alre also proficient in the Perception skill.</p>
+        </description>
+        <sheet>
+            <description>Has advantage on Wisdom (Perception) checks that rely on sight. You alre also proficient in the Perception skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+
+    <element name="Nightvision" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_NIGHTVISION">
+        <description>
+            <p>Accustomed to flying in the night sky during night time hunts, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>Accustomed to flying in the night sky during night time hunts, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+
+    <element name="Language" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_LANGUAGE">
+        <description>
+            <p>Monarch Gryphons can understand Common through listening and can be taught to read it, but they cannot speak it. They can however speak with other Gryphons and Birds, or bird-like creatures, freely in Squawks and Chirps. Additionally, they can understand one additional language, based on where they were raised. When casting a spell, the verbal componant consists of chirps and whistles.</p>
+        </description>
+        <sheet>
+            <description>Monarch Gryphons can understand Common through listening and can be taught to read it, but they cannot speak it. They can however speak with other Gryphons and Birds, or bird-like creatures, freely in Squawks and Chirps. Additionally, they can understand one additional language, based on where they were raised. When casting a spell, the verbal componant consists of chirps and whistles.</description>
+        </sheet>
+        <rules>
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language" supports="Standard||Exotic" /> 
+        </rules>
+    </element>
+
+    <element name="Flight" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_FLIGHT">
+        <description>
+            <p>As a Bonus Action a Monarch Gryphon can take flight, gaining 50% bonus movement and causing melee attackers disadvantage. Landing also requires a Bonus Action, but you can land for free if performing a Melee Action or an Action that requires touches the ground. Landing does not require a Bonus Action for Huge Monarch Gryphons. At Level 5; can Dive Bomb enemies, using either their Beak or Talons, which will have advantage if the Monarch Gryphon is Huge. This Dive Bomb is functioned and treated as a Charge.</p>
+        </description>
+        <sheet>
+            <description>As a Bonus Action a Monarch Gryphon can take flight, gaining 50% bonus movement and causing melee attackers disadvantage. Landing also requires a Bonus Action, but you can land for free if performing a Melee Action or an Action that requires touches the ground. Landing does not require a Bonus Action for Huge Monarch Gryphons. At Level 5; can Dive Bomb enemies, using either their Beak or Talons, which will have advantage if the Monarch Gryphon is Huge. This Dive Bomb is functioned and treated as a Charge.</description>
+        </sheet>
+    </element>
+
+    <element name="Beak and Talon" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_BEAK_AND_TALON">
+        <description>
+            <p>You have fierce natural attacks. Your beak does 1d10 piercing and your talons do 1d8 slashing. These can use either Dexterity or Strength.</p>
+        </description>
+        <sheet>
+            <description>You have fierce natural attacks. Your beak does 1d10 piercing and your talons do 1d8 slashing. These can use either Dexterity or Strength.</description>
+        </sheet>
+    </element>
+
+    <element name="Tough Hide" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_TOUGH_HIDE">
+        <description>
+            <p>A Monarch Gryphon's hide is extremely tough. You have natural armor that is 13 + your Dex modifier.</p>
+        </description>
+        <sheet>
+            <description>A Monarch Gryphon's hide is extremely tough. You have natural armor that is 13 + your Dex modifier.</description>
+        </sheet>
+        <rules>
+            <stat name="tough hide:natural armor" value="13" />
+	        <stat name="tough hide:natural armor" value="dexterity:modifier" />
+	        <stat name="ac:calculation" value="tough hide:natural armor" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (tough hide)" />
+        </rules>
+    </element>
+
+</elements>

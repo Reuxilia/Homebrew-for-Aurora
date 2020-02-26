@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Alecani</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Alecani.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Alecani" type="Race" source="Homebrew" id="ID_HMBRW_RACE_ALECANI">
+    <description>
+      <h4>ALECANI</h4>
+      <p>These fox-like winged creatures are often found up in the mountains or hard to reach places. They're a very friendly people, welcoming of all travelers that don't bear ill will.</p> 
+      <span class="feature">Ability Score Increase.</span>Your Dexterity increases by 2, and one other ability score increases by 1.<br/>
+      <span class="feature">Age.</span>Alecani reach maturity around the age of 15 and live for about 200 years.<br/>
+	    <span class="feature">Alignment</span>The Alecani mostly tend towards more chaotic alignments, but are rarely ever evil.<br/>
+      <span class="feature">Size.</span>Alecani stand at about two to four feet tall, but usually somewhere in the middle. They have thin, deceptively lightweight bodies around 30 to 60 pounds. Your size is Small.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+      <span class="feature">Darkvision.</span>Alecani are adapted for living and flying at twilight hours. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+      <span class="feature">Wings.</span>You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.<br/>
+      <span class="feature">Feat.</span>You gain a starting feat to choose from.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">2'0"</set>
+      <set name="weight" modifier="2d6">25 lb.</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="any" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <select type="Feat" name="Feat (Human Variant)" />
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_MM_LANGUAGE_AURAN" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_WINGS" />
+    </rules>
+  </element>
+  
+   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_WINGS">
+    <description>
+			<p> You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</p>
+		</description>
+		<sheet display="true">
+			<description> You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</description>
+		</sheet>
+  </element>
+</elements>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Raptorfolk" type="Race" source="Homebrew" id="ID_BREW_RACE_Raptorfolk">
+        <description>
+            <p></p>
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>Raptorfolk are people descended from and sharing ubiquitous characteristics with ancient pack predators. They themselves are precursors to the varied species of birds-of-prey that exist today. As such, Raptorfolk take the form of humanoid beings mostly covered in a thick coat of short, bristle-like feathers that may be striped, spotted, or splotchy in pattern. Their long, rounded snouts, forearms, and lower legs are devoid of this covering, instead bearing a scaled hide. Most are colored in subdued, earthy tones, though males tend to be more brightly colored, and often sport a crest-like mane of feathers that reacts with the Raptorfolk's mood. Their bright colors serve to attract mates and show off their virility. Their eyes are often green or yellow in color, with a smaller number featuring blue or violet hues.</p>
+            <p class="indent"></p>
+            <h4>HISTORY</h4>
+            <p>Raptorfolk likely were created alongside the dinosaurs towards the end of the sarrukh kingdom's reign during the days of thunder. Like the yuan-ti, they were probably humans who lived before the age of man came to be. Creatures like lizardfolk and dragons existed, but dinosaurs were a deadly mix of the two. From the mix came the raptors, who were small and fast wicked little things. The sarrukh experimented on the humans, mixing the races. The Raptorfolk were thus created. They did not enjoy life too long as soon the sarrukh fell and the yuan-ti usurped power. The deity of the yuan-ti was cruel and the Raptorfolk fled from his influence, refusing to worship him. They found refuge outside the reaches of Mhairshaulk, where they lived in relative fear and seclusion. When the god became unresponsive and other races assailed the empire, the Raptorfolk quickly surrendered to incoming human forces and swore them aid. After the battle was over, Raptorfolk were free to walk with the humans, though the yuan-ti never forgot their perceived betrayal.</p>
+            <p class="indent"></p>
+            <h4>SOCIETY</h4>
+            <p>Raptorfolk often live in temperate or warm rainforests in tribes. However, thanks to the bravery and deeds of their ancestors, they can venture forth to other settlements and cities without fear of stigma. In a way, they are regarded as dragonfolk. Raptorfolk are all too eager to interact, trade with, and assist different peoples, assuming that no hostile intent is shown to them. They are thought to be timid in new environments, despite their eagerness. At the back of their mind usually lurks the wonder of what evil thoughts another creature may be scheming. As such, divination magic into another creature's thoughts is a highly praised skill in Raptorfolk society. This timidness does not change the fact that, when threatened, Raptorfolk are capable combatants. Predatory instinct still lays behind every Raptorfolk's fierce intellect, and the pack mentality that otherwise allows their society to thrive through teamwork becomes a fierce weapon when turned to face a foe. Through skillful coordination and the viciousness of any assault, even a small group of Raptorfolk warriors can defeat larger or more numerous foes. Like lizardfolk, they are resourceful creatures and masters of their home terrain. </p>
+            <p class="indent"></p>
+            <h4>Raptorfolk Names</h4>
+            <p>There is a dichotomy to Raptorfolk names. While males usually take more musical, sibilant names, females are usually given harsher-sounding names with hard consonants.</p>
+            <p class="indent"></p>
+            <h4>Raptorfolk Traits</h4>
+            <p>Forest-dwelling anthropoid raptors as skilled in trade as they are in combat.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong>Raptorfolk mature and age around the same rate as humans, with slightly higher rates of greater longevity.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong>Raptorfolk tend to be neutral good or chaotic good.</p>
+            <p class="indent"><strong><em>Size.</em></strong>Trending towards greater height, many Raptorfolk are around six to six and a half feet tall. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 35 feet.</p>
+            <p class="indent"><strong><em>Low-Light Vision.</em></strong>While you cannot see in darkness, a little dim light doesn't stop you from seeing danger. You do not have disadvantage on Wisdom (Perception) checks when in a lightly obscured area.</p>
+            <p class="indent"><strong><em>Bite and Claw.</em></strong>Your claws can hook onto another being and your teeth will tear them to shreds. If you successfully grapple a creature, you may use a bonus action to make a bite attack with advantage against the grappled creature. On a success, you deal 1d10 piercing damage. This damage increases by 1d10 at 6th level (2d10), 11th level (3d10), and 16th level (4d10).</p>
+            <p class="indent"><strong><em>Pack Rush.</em></strong>You coordinate well with allies to bring home the kill. If at least one of your allies is within 5 feet of a creature and the ally isn't incapacitated, you have advantage on an attack roll against that creature. You may alternatively grant this advantage to an ally if the same conditions are met.</p>
+            <p class="indent"><strong><em>Thought Wonder.</em></strong>Not everyone can use divination magic. Most Raptorfolk make do by close observation of tics and telling quirks in demeanor. You are proficient with the Insight skill.</p>
+            <p class="indent"><strong><em>Leathery Hide.</em></strong>Your hide is covered in scales that are leathery to the touch but rather tough. You have a natural AC of 12 + DEX Modifier.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>You can read, speak and write Common and one other language.</p>
+            <p class="indent"><strong><em>Feat.</em></strong>You gain a starting feat to choose from.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="1d6">6'</set>
+            <set name="weight" modifier="2d4">160 lb.</set>
+            <set name="names" type="male">Ssyrsha, Ith, Rrissatha, Mylosth, Zaä</set>
+            <set name="names" type="female">Nykryk, Zaip, Styr, Ykja, Krek</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="35" bonus="base" />
+            <stat name="dexterity" value="2" />
+            <stat name="intelligence" value="1" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language" supports="Standard||Exotic" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_LOW-LIGHT_VISION" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_BITE_AND_CLAW" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_PACK_RUSH" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_THOUGHT_WONDER" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_LEATHERY_HIDE" />
+            <select type="Feat" name="Feat (Starting Feat)" />
+        </rules>
+    </element>    
+
+    <element name="Low-Light Vision" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_LOW-LIGHT_VISION">
+        <description>
+            <p>While you cannot see in darkness, a little dim light doesn't stop you from seeing danger. You do not have disadvantage on Wisdom (Perception) checks when in a lightly obscured area.</p>
+        </description>
+        <sheet>
+            <description>While you cannot see in darkness, a little dim light doesn't stop you from seeing danger. You do not have disadvantage on Wisdom (Perception) checks when in a lightly obscured area.</description>
+        </sheet>
+    </element>    
+
+    <element name="Bite and Claw" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_BITE_AND_CLAW">
+        <description>
+            <p>Your claws can hook onto another being and your teeth will tear them to shreds. If you successfully grapple a creature, you may use a bonus action to make a bite attack with advantage against the grappled creature. On a success, you deal 1d10 piercing damage. This damage increases by 1d10 at 6th level (2d10), 11th level (3d10), and 16th level (4d10).</p>
+        </description>
+        <sheet>
+            <description>Your claws can hook onto another being and your teeth will tear them to shreds. If you successfully grapple a creature, you may use a bonus action to make a bite attack with advantage against the grappled creature. On a success, you deal 1d10 piercing damage. This damage increases by 1d10 at 6th level (2d10), 11th level (3d10), and 16th level (4d10).</description>
+        </sheet>
+    </element>
+
+    <element name="Pack Rush" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_PACK_RUSH">
+        <description>
+            <p>You coordinate well with allies to bring home the kill. If at least one of your allies is within 5 feet of a creature and the ally isn't incapacitated, you have advantage on an attack roll against that creature. You may alternatively grant this advantage to an ally if the same conditions are met.</p>
+        </description>
+        <sheet>
+            <description>You coordinate well with allies to bring home the kill. If at least one of your allies is within 5 feet of a creature and the ally isn't incapacitated, you have advantage on an attack roll against that creature. You may alternatively grant this advantage to an ally if the same conditions are met.</description>
+        </sheet>
+    </element>
+
+    <element name="Thought Wonder" type="Racial Trait" source="source" id="ID_BREW_RACIAL_TRAIT_THOUGHT_WONDER">
+        <description>
+            <p>Not everyone can use divination magic. Most Raptorfolk make do by close observation of tics and telling quirks in demeanor. You are proficient with the Insight skill.</p>
+        </description>
+        <sheet>
+            <description>Not everyone can use divination magic. Most Raptorfolk make do by close observation of tics and telling quirks in demeanor. You are proficient with the Insight skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+        </rules>
+    </element>
+
+    <element name="Leathery Hide" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_LEATHERY_HIDE">
+        <description>
+            <p>Your hide is covered in scales that are leathery to the touch but rather tough. You have a natural AC of 12 + DEX Modifier.</p>
+        </description>
+        <sheet>
+            <description>Your hide is covered in scales that are leathery to the touch but rather tough. You have a natural AC of 12 + DEX Modifier.</description>
+        </sheet>
+        <rules>
+            <stat name="leathery hide:natural armor" value="12" />
+	        <stat name="leathery hide:natural armor" value="dexterity:modifier" />
+	        <stat name="ac:calculation" value="leathery hide:natural armor" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (leathery hide)" />
+        </rules>
+    </element>
+    
+</elements>

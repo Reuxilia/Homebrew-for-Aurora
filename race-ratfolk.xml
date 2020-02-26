@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ratfolk</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Ratfolk.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Ratfolk" type="Race" source="Homebrew" id="ID_HMBRW_RACE_RATFOLK">
+    <description>
+      <h4>Ratfolk</h4>
+      <p>The Ratfolk, or Nezumi, are said to be the manifestation of greed and theft. Because of this, other races tend to mistrust the Ratfolk. However, the truth is that Ratfolk tends to have very basic needs. The need for shelter, so they can make their homes anywhere they can. The need for food and they will take food from anywhere and anyone with little regard to the consequences.  This may not apply to those Ratfolk born among civilized folk. They tend to be merchants, thieves, and pickpockets.</p> 
+      <h4>Agile Kleptos</h4>
+      <p>Ratfolk are bipedal but tend to use all fours, which allows them to climb and balance with ease. This also allows them to move around stealthily making them the perfect thief. In the wild, they used their natural skills to collect food and avoid dangerous predators and adversaries. Ratfolk in cities and town are usually forced to live in the slums and have to fend for everything they have. Thugs and thieves will take advantage of their skills in order to line their our pockets.</p>
+      <p class="indent"></p>
+      <h4>Pests and Outcasts</h4>
+      <p>Due to no fault of their own, most races tend to mistrust and mistreat the Ratfolk. They are most often forced to scavenge for food and find shelter in the sewers or on the outskirts of town. Those who are able to find work are paid low wages and are given the dirtiest jobs (chimney sweeps, trash collectors,  graveyard janitors etc). </p>
+      <p class="indent"></p>
+      <h4>Ratfolk Names</h4>
+      <p>Ratfolk don't have a language of their own but will use tick, whistle, and body language to warm each other of dangers and to give general directions. Thieves have adopted these gestures which is now known as thieves cant.  Ratfolk names may sound odd to most due to the clicking or hiss sounds in their pronunciation or they will adopt human names in order to fit in. </p>
+      <p class="indent"></p>
+      <span class="feature">Ability Score Increase.</span>Your Dexterity increases by 2, and Constitution increases by 1.<br/>
+      <span class="feature">Age.</span>Ratfolk reach maturity around the age of 15 and live for about 120 years.<br/>
+	    <span class="feature">Alignment</span>Ratfolk tend to lean towards the more towards a chaotic life, however, they will do just about anything in order to stay alive. So they will align themselves with anyone who promises to keep them safe.<br/>
+      <span class="feature">Size.</span>Ratfolk tend to be shorter than Humans, ranging from 4 1/2 to 5 1/2 feet tall. Your size is medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 40 feet. You have a climbing speed of 30 feet.<br/>
+      <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
+      <span class="feature">Nimble Fingers</span>You are proficient in Sleight of Hand.<br/>
+      <span class="feature">Feat.</span>You gain a starting feat to choose from.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">4'6"</set>
+      <set name="weight" modifier="2d6">85 lb.</set>
+      <set name="names" type="Ratfolk Names">Raticks, Histh, Rodicks, Alacktick, Hannsax, Mellziks, Oztak, Ssilmuck</set>
+      <set name="names-format">{{name}}</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="constitution" value="1"/>
+      <stat name="innate speed" value="40" bonus="base"/>
+      <stat name="innate speed:climb" value="30" bonus="base" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <select type="Feat" name="Starting Feat" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>  
+</elements>

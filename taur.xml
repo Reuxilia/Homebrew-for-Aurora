@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Taur" type="Race" source="Homebrew" id="ID_HMBRW_RACE_TAUR">
+		<description>
+			<p>Taurs come in a few different shapes and sizes. From wolftaurs to foxtaurs to other kinds.</p>
+			<h4>TAUR NAMES</h4>
+			<p><strong>Male Names:</strong> Bonmod, Boruvo, Chodi, Drozan, Kozim, Milosh, Ninos, Oleksi, Orval, Radovas, Radom, Rostis, Svetyos, Tomis, Trijiro, Volim, Vlodim, Yarog<br/>
+			<strong>Female Names:</strong> Daiva, Dunja, Elnaya, Galisnya, lrinya, Kotyali, Lalya, Litisia, Madya, Mira, Nedja, Nikya, Ostani, Pinya, Rada, Raisya, Stasolya, Tatna, Zhendoya, Zoria</p>
+			<h4>TAUR TRAITS</h4>
+			<p>Your taur character has the following racial traits. These traits are also suitable for the Taurs of other worlds where there are Taurs of fey origin. These Taurs are smaller than the non-fey Taurs that roam in some realms.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, your Constitution score increases by 2 and your Wisdom score increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Taurs mature and age at about the same rate as humans, though live for around 300 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Taurs are inclined toward neutrality. Those who join the Selesnya are more often neutral good, while those who join the Gruul are typically chaotic neutral.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Taurs stand between 7 and 8 feet tall, with their equine bodies reaching about 5 feet at the withers. Your size is Large.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 40 feet.</p>
+			<p class="indent"><strong><em>Fey.</em></strong> Your creature type is fey, rather than humanoid.</p>
+			<p class="indent"><strong><em>Charge.</em></strong> If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</p>
+			<p class="indent"><strong><em>Natural Weapons.</em></strong> Your paws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You also have a bite attack that deals 1d8 + your strength modifier of piercing damage.</p>
+			<p class="indent"><strong><em>Equine Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+			<p class="indent">In addition, any climb that requires hands and feet is especially difficult for you because of your stature. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.</p>
+			<p class="indent"><strong><em>Survivor.</em></strong> You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+            <p class="indent"><b><i>Feat. </i></b>You gain a starting feat to choose from.</p>	
+		</description>
+		<setters>
+			<set name="names" type="male">Bonmod, Boruvo, Chodi, Drozan, Kozim, Milosh, Ninos, Oleksi, Orval, Radovas, Radom, Rostis, Svetyos, Tomis, Trijiro, Volim, Vlodim, Yarog</set>
+			<set name="names" type="female">Daiva, Dunja, Elnaya, Galisnya, lrinya, Kotyali, Lalya, Litisia, Madya, Mira, Nedja, Nikya, Ostani, Pinya, Rada, Raisya, Stasolya, Tatna, Zhendoya, Zoria</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">6'0"</set>
+			<set name="weight" modifier="2d12">600 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" />
+			<stat name="constitution" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="40" bonus="base" />
+            <select type="Feat" name="Feat (Starting Feat)" />
+			<grant type="Size" id="ID_SIZE_LARGE" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_FEY" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_CHARGE" />
+			<grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_TAUR_NATURAL_WEAPONS" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_SURVIVOR" />
+		</rules>
+	</element>	
+	<element name="Fey" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_FEY">
+		<description>
+			<p>Your creature type is fey, rather than humanoid.</p>
+		</description>
+		<sheet>
+			<description>Your creature type is fey, rather than humanoid.</description>
+		</sheet>
+	</element>
+	<element name="Charge" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_CHARGE">
+		<description>
+			<p>If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</p>
+		</description>
+		<sheet>
+			<description>If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.</description>
+		</sheet>
+	</element>
+	<element name="Natural Weapons" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_TAUR_NATURAL_WEAPONS">
+		<description>
+			<p>Your paws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You also have a bite attack that deals 1d8 + your strength modifier of piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Your paws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal 1d6+{{strength:modifier}} bludgeoning damage. You also have a bite attack that deals 1d8+{{strength:modifier}} piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Equine Build" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+			<p class="indent">In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push or drag.
+			Any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+	<element name="Survivor" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_SURVIVOR">
+		<description>
+			<p>You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Survivor (Centaur)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>    
+</elements>

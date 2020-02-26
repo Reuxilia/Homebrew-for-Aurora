@@ -1,0 +1,90 @@
+<elements>
+    <element name="High Centaur" type="Race" source="Homebrew" id="ID_BREW_RACE_HIGH_CENTAUR">
+        <description>
+            <p></p>
+            <h4>HIGH CENTAUR</h4>
+            <p>High Centaur (usually just called Centaur) are the more organized of the Centaur subraces. Highly honorable, they are known for their tenacious and deadly Knights, As a people they strive to bring order and justice to the lands, and they are gifted in both melee combat as well as Archery. Despite their often lack of Arcane support, they more then make up for that with their mobile warriors, skilled archers, and high numbers. Centaurs mature slightly faster then humans, and life approximately equally as long. Their appearance varies, as some have Elven ears, with variants that have longer ears with even some hair on them. Others have two Horse like ears on top of their head. Regardless, they all have the upper torso of an attractive humanoid, with the lower body of a muscular Horse. Most Centaurs have blonde hair and blue eyes, but red hair and green eyes are common as well.</p>
+            <p class="indent"></p>
+            <h4>EQUINE CRUSADERS</h4>
+            <p>The High Centaurs are infamous for their noble and heroic heroes, as well as their zealous Crusades against the followers of the Gods of Chaos and Evil. From a young age they are trained in the arts of war, alongside professions such as farming, Metalsmithing and tailoring. Being bound to a area has forced them into a more civilized way of life, and they have fully embraced it. While they often lack Arcane spellcasters in their midst, they do have many divine spellcasters such as Rangers and their War Clerics. As a species they are highly fertile, often having large families. However the thing that keeps their numbers down are their Crusades, though led by well organized High Centaur Soldiers, often suffer heavy casualties due to the powerful foes they face. Nevertheless, these Crusades are equally impactful, as many a would be evil Overlord has been defeated by such Crusades.</p>
+            <p class="indent"></p>
+            <h4>PLAYING A HIGH CENTAUR</h4>
+            <p>High Centaurs are strong, fast, noble, and courageous. More often then not a High Centaur's strong sense of justice will put it at odds with those who would harm the innocent and defenseless, and although they are far from naïve they also adhere to a strict code of conduct. Nevertheless they also know how to have fun when off duty, and often indulge themselves in strong alcohol, especially Apple Cider. Their bodies can be just as much a blessing as a curse - granting speed, carrying capacity, and the possibility for others to catch a ride. Meanwhile their weight and quadruped form can make them troubling targets for certain beneficial adventuring spells, like Disguise Self and Tenser's Floating Disk. High Centaur adventurers can be powerful allies however, due to their mobility and physical benefits. But climbing is still a problem, which sometimes might be necessary when exploring dungeons. Fortunately many High Centaur adventurers have made good use of magical items such as "boots"  of spider climb. Regardless, few will find a more loyal and devoted party member then a High Centaur.</p>
+            <p class="indent"></p>
+            <h4>MIGHTY COMPOSITE LONGBOW</h4>
+            <p>High Centaurs are not only famous for their devastating Charges, they are also known for their Mighty Composite Longbows. These deadly weapons are infamous for their deadly punching power, as well as the enormous amount of Strength that they require. Most Centaur Adventurers start with one, their Centaur Weapon's training allowing them to use these exotic weapons, provided they have the required Strength to properly wield it.High Centaur Fighter and Ranger Starting Adventurers may choose to take a Mighty Composite Longbow and 20 arrows instead of the regular longbow or Light Crossbow. And the armors that all High Centaur Starting Adventurers may choose from count as being barding armor without additional costs.</p>
+            <p class="indent"></p>
+            <h4>High Centaur Traits</h4>
+            <p>Your High Centaur character has the following racial traits.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Your Strength increases by 2, and your Dexterity increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong>High Centaurs reach maturity around age 15 and can live up to 100 years.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong>High Centaurs are typically Lawful Good. While they do enjoy roaming the wilds and going on adventures, they are also a highly organized and honorable people.</p>
+            <p class="indent"><strong><em>Size.</em></strong>The average High centaur is between six and nine feet tall. They have been known to weigh between 1000 and 2500 pounds. Your size is Large. However, due to the position of your Torso you do not gain natural bonus reach. You may serve as a mount for a single creature one size below yours or smaller, and when you do so you always act independently of your rider. You also count as mounted at all times for the purposes of equipment.</p>
+            <p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 60 feet. If you are carrying a rider on your back then your base walking speed becomes 50 feet instead.</p>
+            <p class="indent"><strong><em>Hooves of Fury.</em></strong>Your hooves are natural weapons, which you are proficient in and can use to make unarmed strikes with either your two front hooves or your two back hooves. If you hit with them, they do 2d6 + Strength modifier in bludgeoning damage. You may only make an attack with your Hooves once per turn, and any extra attacks you have will have to be performed with a different weapon (except when you use them as a bonus action against a prone opponent after a Charge). If a successful attack is made with your back hooves, then the target must make a Strength saving throw (DC 8 + your Proficiency bonus + your Strength modifier) or be pushed back 5 feet. Movement in this way does not provoke any attacks of opportunity, but you may not attack with your back hooves after moving towards the target in the same turn. If the target collides with something due to the push it will be knocked prone, and if this is a creature then it must also make a Strength saving throw against your DC or be knocked prone as well. You may use your Hooves to perform an attack of opportunity, but you may only use your back Hooves if the attack of opportunity occurs behind you.</p>
+            <p class="indent"><strong><em>Quadruped.</em></strong>You have Disadvantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to climb. Unless your Hooves are in some way obscured, you have disadvantage on Dexterity (Stealth) checks when walking on hard surfaces, such as stone, brick or glass. Your form requires you to use Barding armor, which is more expensive (Player's Hanbook pg. 155).</p>
+            <p class="indent"><strong><em>Charge.</em></strong>If you moved at least 20 feet straight towards a creature and successfully hit it with a Hooves attack on the same turn, then that target must succeed on a Strength saving throw (DC 8 + your Proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make another attack with your Hooves against it as a bonus action. If you moved at least 20 feet straight towards a creature and attack it without using your Hooves, then the first melee attack using strength you make against that target has advantage. In addition, if this first attack is successful and done with a piercing weapon, then the attack will automatically count as a critical hit.</p>
+            <p class="indent"><strong><em>Centaur Weapon Training.</em></strong>You have proficiency with Lances, Rapiers, Spears, Pikes, Longbows, and Shields. In addition you are proficient with the Mighty Composite Longbow.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Sylvan, Elvish, and Common.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" />
+            <stat name="dexterity" value="1" />
+            <stat name="innate speed" value="60" bonus="base" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+            <grant type="Size" id="ID_SIZE_LARGE" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_Hooves_of_Fury" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_Quadruped" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_Charge" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_Centaur_Weapon_Training" />
+        </rules>
+    </element>
+
+    <element name="Hooves of Fury" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_Hooves_of_Fury">
+        <description>
+            <p>Your hooves are natural weapons, which you are proficient in and can use to make unarmed strikes with either your two front hooves or your two back hooves. If you hit with them, they do 2d6 + Strength modifier in bludgeoning damage. You may only make an attack with your Hooves once per turn, and any extra attacks you have will have to be performed with a different weapon (except when you use them as a bonus action against a prone opponent after a Charge). If a successful attack is made with your back hooves, then the target must make a Strength saving throw (DC 8 + your Proficiency bonus + your Strength modifier) or be pushed back 5 feet. Movement in this way does not provoke any attacks of opportunity, but you may not attack with your back hooves after moving towards the target in the same turn. If the target collides with something due to the push it will be knocked prone, and if this is a creature then it must also make a Strength saving throw against your DC or be knocked prone as well. You may use your Hooves to perform an attack of opportunity, but you may only use your back Hooves if the attack of opportunity occurs behind you.</p>
+        </description>
+        <sheet>
+            <description>Your hooves are natural weapons, which you are proficient in and can use to make unarmed strikes with either your two front hooves or your two back hooves. If you hit with them, they do 2d6 + Strength modifier in bludgeoning damage. You may only make an attack with your Hooves once per turn, and any extra attacks you have will have to be performed with a different weapon (except when you use them as a bonus action against a prone opponent after a Charge). If a successful attack is made with your back hooves, then the target must make a Strength saving throw (DC 8 + your Proficiency bonus + your Strength modifier) or be pushed back 5 feet. Movement in this way does not provoke any attacks of opportunity, but you may not attack with your back hooves after moving towards the target in the same turn. If the target collides with something due to the push it will be knocked prone, and if this is a creature then it must also make a Strength saving throw against your DC or be knocked prone as well. You may use your Hooves to perform an attack of opportunity, but you may only use your back Hooves if the attack of opportunity occurs behind you.</description>
+        </sheet>
+    </element>
+
+    <element name="Quadruped" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_Quadruped">
+        <description>
+            <p>You have Disadvantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to climb. Unless your Hooves are in some way obscured, you have disadvantage on Dexterity (Stealth) checks when walking on hard surfaces, such as stone, brick or glass. Your form requires you to use Barding armor, which is more expensive (Player's Hanbook pg. 155).</p>
+        </description>
+        <sheet>
+            <description>You have Disadvantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to climb. Unless your Hooves are in some way obscured, you have disadvantage on Dexterity (Stealth) checks when walking on hard surfaces, such as stone, brick or glass. Your form requires you to use Barding armor, which is more expensive (Player's Hanbook pg. 155).</description>
+        </sheet>
+    </element>
+
+    <element name="Charge" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_Charge">
+        <description>
+            <p>If you moved at least 20 feet straight towards a creature and successfully hit it with a Hooves attack on the same turn, then that target must succeed on a Strength saving throw (DC 8 + your Proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make another attack with your Hooves against it as a bonus action. If you moved at least 20 feet straight towards a creature and attack it without using your Hooves, then the first melee attack using strength you make against that target has advantage. In addition, if this first attack is successful and done with a piercing weapon, then the attack will automatically count as a critical hit.</p>
+        </description>
+        <sheet>
+            <description>If you moved at least 20 feet straight towards a creature and successfully hit it with a Hooves attack on the same turn, then that target must succeed on a Strength saving throw (DC 8 + your Proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make another attack with your Hooves against it as a bonus action. If you moved at least 20 feet straight towards a creature and attack it without using your Hooves, then the first melee attack using strength you make against that target has advantage. In addition, if this first attack is successful and done with a piercing weapon, then the attack will automatically count as a critical hit.</description>
+        </sheet>
+    </element>
+
+    <element name="Centaur Weapon Training" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_Centaur_Weapon_Training">
+        <description>
+            <p>You have proficiency with Lances, Rapiers, Spears, Pikes, Longbows, and Shields. In addition you are proficient with the Mighty Composite Longbow</p>
+        </description>
+        <sheet>
+            <description>You have proficiency with Lances, Rapiers, Spears, Pikes, Longbows, and Shields. In addition you are proficient with the Mighty Composite Longbow</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+        </rules>
+    </element>
+
+</elements>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Fox'smanuh" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_FOXSMANUH">
+		<description>
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>The fox'smanuh are creatures that resemble foxes stretched into long, serpentine bodies. They are able to stand up straight and leave a good deal of tail behind them, and still have an imposing height over any average human. Their bodies are extremely limber and can wag in intricate coils with fluid motion like snakes. Thick fur covers their bodies. This fur can be any color a normal fox has. On their face, they usually have thick whiskers, and on their tail, bushy fur. Like normal foxes, they have sharp teeth, claws, and a mischievous expression often times. Unlike a normal fox, however, they sport horns.</p> 
+			<h4>HISTORY</h4>
+			<p>Due to their unusual shape, fox'smanuh have often been likened to that of furry snakes or eastern dragons, like the shen long. They are incredibly long lived and have appeared in sightings about many historical manuscripts, often as conmen. As history goes, they masquerade as heralds of fortunes, and snake oil salesmen, among other things. With their handy use of trickery and illusory magic, this is no hard feat for them. Their witty speeches and regaling appearance buoys their audiences into buying into their scams, which usually collect heavy fees like indulgences or donations to prevent disaster. After they reaped their fill, they will usually quickly be off before their ruse can be discovered. No one ever sees a fox'smanuh when it does not want to be seen. There is a particular story of a female fox'smanuh which fell in love with a human monk. This monk did not fear nor despise the fox'smanuh for her nature. She often visited him daily and watched his daily schedules. But it was not meant to be, for monk perished at the hands of a greedy burgermeister, who tore a piece of the monk's soul, so he could never be whole again. The monk withered until the day he just dropped dead suddenly. The fox'smanuh went mad with rage and devoted all her magic to attaining revenge. She lavished herself, changing her form to that of a ravishing prostitute, throwing herself at the burgermeister's feet. The foolish man whet his appetite and sunk his ravenous lust into her. He became so enamored with her under her charm that he promised her anything. She commanded he burn all his property, his wives, his houses, his servants, and even his clothes. He did all this willingly, thinking only of his pending reward. When he was done, standing naked before the vixen in human skin, he waited for her embrace. She sunk her teeth in his face and blinded him, running off with his eyes. He was left a blind and broken man for the rest of his days. It is said a fox'smanuh scorned is a curse born to be bore. </p>
+			<h4>SOCIETY</h4>
+			<p>Fox'smanuh are one of the wilier creatures to walk the land. Though it can be funny to think of how one walks with a bulge in their back due to the long bodies they have, it is best not to think that around them. Fox'smanuh are successful con men because they know well how to read crowds and expose insecurities. In times of danger, some older fox'smanuh can actually take to the skies like a real dragon. They know the best tricks to tow lines, but also keep alive. Foolery is their best tool. Those who mess with them are said to already have shortened lifespans. An air of mystique ultimately surrounds them. They do not always lie, but instead speak half-truths.</p>
+      		<h4>FOX'SMANUH NAMES</h4>
+      		<p>Female fox'smanuh are called vixens and males are called tods. They are very similar, save that males have longer whiskers while females have longer tails. Their names usually highlight these gendered traits, as well as whatever else is a stand out on their bodies. These sometimes are just the names of other animals.</p>
+			<h4>FOX'SMANUH TRAITS</h4>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Fox'smanuh reach adulthood at the age of 5 but can live up to nearly 300 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Fox'smanuh tend to be chaotic in alignment, loving to play tricks for self-profit.</p>
+			<p class="indent"><strong><em>Size.</em></strong> The Fox'smanuh usually stand 5 to 7 feet tall, with plenty of tail to spare. They average around 140 to 190 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your legs are kind of awkwardly placed on your serpentine body, and your body is a bit wobbly on a foundation with a super long spine. Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Ascent.</em></strong> Some part of a fox'smanuh just screams dragon. They're not the best on land after all. But it takes a seasoned fox'smanuh to take to the skies. At 5th level, you gain a flying speed of 30 feet.</p>
+			<p class="indent"><strong><em>Wily Salesman.</em></strong> Fox'smanuh are pretty much born with silver tongues they hone. Whenever you make an Charisma (Persuasion) check related to the price of something, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can read, write and speak in Common and one other language of your choice.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Choose from the Red or Arctic subraces.</p>
+			<p class="indent"><strong><em>Feat.</em></strong>You gain a starting feat.</p>
+		</description>
+		<setters>
+      		<set name="height" modifier="2d6">5'</set>
+      		<set name="weight" modifier="2d6">140 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Race Trait" id="ID_WIKI_FOXSMANUH_RACIAL_TRAIT_ASCENT" level="5" />
+			<grant type="Race Trait" id="ID_WIKI_FOXSMANUH_RACIAL_TRAIT_WILY_SALESMAN" />
+			<select type="Sub Race" name="Fox'smanuh Subrace" supports="Foxsmanuh" />
+			<select type="Language" name="Language (Fox'smanuh)" />
+			<select type="Feat" name="Starting Feat" />
+		</rules>
+	</element>
+	<element name="Ascent" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_RACIAL_TRAIT_ASCENT">
+		<description>
+			<p>Some part of a fox'smanuh just screams dragon. They're not the best on land after all. But it takes a seasoned fox'smanuh to take to the skies. At 5th level, you gain a flying speed of 30 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>Some part of a fox'smanuh just screams dragon. They're not the best on land after all. But it takes a seasoned fox'smanuh to take to the skies. At 5th level, you gain a flying speed of 30 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:fly" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Wily Salesman" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_RACIAL_TRAIT_WILY_SALESMAN">
+		<description>
+			<p>Fox'smanuh are pretty much born with silver tongues they hone. Whenever you make an Charisma (Persuasion) check related to the price of something, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make an Charisma (Persuasion) check related to the price of something, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</description>
+		</sheet>
+	</element>
+
+	<!-- Red -->
+	<element name="Red Fox'smanuh" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_SUBRACE_RED">
+	<supports>Foxsmanuh</supports>
+		<description>
+			<p>Red fox'smanuh are common, their colors being that of most foxes. They are known for being playful and passionate. It is not uncommon for them to take guises to be with those they may fall in love with.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Spell Trickery.</em></strong> You have a versatile repertoire of beguiling spells which builds with your experience. You know the minor illusion cantrip, and can cast it without material components. At 3rd level, you can cast the disguise self spell once, without using any material components. At 5th level, you can cast the enthrall spell once, without using any material components. You regain all uses of this trait upon completion of a long rest.</p>
+		</description>
+		<sheet display="false">
+			<description>Red fox'smanuh are common, their colors being that of most foxes. They are known for being playful and passionate. It is not uncommon for them to take guises to be with those they may fall in love with.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_WIKI_FOXSMANUH_RED_RACIAL_TRAIT_SPELL_TRICKERY" />
+		</rules>
+	</element>
+
+	<element name="Spell Trickery" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_RED_RACIAL_TRAIT_SPELL_TRICKERY">
+		<description>
+			<p>You have a versatile repertoire of beguiling spells which builds with your experience. You know the minor illusion cantrip, and can cast it without material components. At 3rd level, you can cast the disguise self spell once, without using any material components. At 5th level, you can cast the enthrall spell once, without using any material components. You regain all uses of this trait upon completion of a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You know the Minor Illusion cantrip.</description>
+			<description level="3">You know the Minor Illusion cantrip and can cast disguise self.</description>
+			<description level="5">You know the Minor Illusion cantrip, you can also cast disguise self and enthrall.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENTHRALL" level="5" />
+		</rules>
+	</element>
+
+	<!-- Arctic -->
+	<element name="Arctic Fox'smanuh" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_SUBRACE_ARCTIC">
+	<supports>Foxsmanuh</supports>
+		<description>
+			<p>Arctic fox'smanuh are more timid than their cousins. However, it is also rumored they are far more savage if threatened or hungry. Their fur is pure white, making it easy for them to hunt in the snow. They rarely leave the cold where they mark their territories.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Alps Born.</em></strong> You fear not the elements, having lived in them for so long. You are resistant to cold damage.</p>
+			<p class="indent"><strong><em>Keen Sensors.</em></strong> Your whiskers are excellent dowsing tools not only for enemies lurking, but also for emotions. You are proficient in the Perception and Insight skills.</p>
+		</description>
+		<sheet display="false">
+			<description>Arctic fox'smanuh are more timid than their cousins. However, it is also rumored they are far more savage if threatened or hungry. Their fur is pure white, making it easy for them to hunt in the snow. They rarely leave the cold where they mark their territories.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_WIKI_FOXSMANUH_ARCTIC_RACIAL_TRAIT_ALPS_BORN" />
+			<grant type="Racial Trait" id="ID_WIKI_FOXSMANUH_ARCTIC_RACIAL_TRAIT_KEEN_SENSORS" />
+		</rules>
+	</element>
+	<element name="Alps Born" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_ARCTIC_RACIAL_TRAIT_ALPS_BORN">
+		<description>
+			<p>You fear not the elements, having lived in them for so long. You are resistant to cold damage.</p>
+		</description>
+		<sheet display="false">
+			<description>You are resistant to cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	<element name="Keen Sensors" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_FOXSMANUH_ARCTIC_RACIAL_TRAIT_KEEN_SENSORS">
+		<description>
+			<p>Your whiskers are excellent dowsing tools not only for enemies lurking, but also for emotions. You are proficient in the Perception and Insight skills.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient in the Perception and Insight skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+</elements>

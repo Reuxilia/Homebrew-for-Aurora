@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragovian</name>
+		<description></description>
+		<author url="https://www.dandwiki.com/wiki/DRAGOVIAN_(5e_Race)">Thraintar</author>
+		<update version="1.0">
+			<file name="race-Dragovian.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Dragovian" type="Race" source="Homebrew" id="ID_HMBRW_RACE_DRAGOVIAN">
+    <description>
+      <h4>DRAGOVIAN</h4>
+      <p>Araeliana snapped her head in a double-take. From the back of the Sorceresses wyvern whilst traveling to Neverwinter, she thought she saw a tiny dragon disappear into the clouds that hide the peak of Starmount, the tallest mountain in the Neverwinter. Being obsessed with her draconic heritage Araeliana steered her mount back towards the mountain. Reaching the top, she was astonished at the site, a large island floating above the mountaintop with a huge City! Most of the population were human-sized Dragons with a mostly Elves and humans about on business or study. These were the Dragovians, decedents of Dragons cursed in the war between Bahamut and Tiamat.</p> 
+      <h4>APPEARANCE</h4>
+      <p>Whilst similar to the dragonborn, the dragovian retain more of the original draconian looks. A typical dragovian has the grace and proportions of an elf with the body of a dragon. Height usually ranges from 4 to 6 1/2 feet with wings that can easily support flight. The coloration of their scales varies widely due to the crossing of all the draconic hues. Clothing typically matches the profession a Dragovian chooses.</p>
+      <h4>HISTORY</h4>
+      <p>Dragovian legend states that they came into being due to a curse meant to maim Bahamut during an ancient war with Tiamat. When the curse was aimed at Bahamut one of the Great Gold Wyrm's, Kuraenixia the Presence, took the curse instead, however, the magic was so great that it bounced upon many of the other combatants. This curse over time diminished the dragons size and power until they were similar in size and stature to that of humans and elves. Rather than writhe in sorrow over their loss of strength and ability the new race, often called Dovahsil (Dragon Soul) by their true dragon brothers, took to building a culture to match the humanoid races the Dovahsil now resembled. Due to the need for a union, the Dragovian were able to give up the issues that arise between the different dragon species and took to crafting a new legacy.</p>
+      <h4>SOCIETY</h4>
+      <p>Dragovian society is as varied as a human or elven society. There is a sense of community similar to a humanoid city, but much more focus is on the study of a craft, history, or lore. Dragovians are not without a sense of adventure however and often take long trips just to explore and often leave an impression due to a natural charm dragovians seem to have. The Dovasil have lost their ability to breath the elements but retain their ability to fly and the natural spell affinity of their dragon bloodline. Dragovian cities are most often set upon floating islands above the clouds away from prying eyes. This may come from the secluded nature of their draconic past. More recently, borders and trade have been opened to further their study to the present find a place in the world as the dragonborn have done. Most institutions and areas welcome them due to their link to dragons and chance to study their part in the shaping of history. Dragovian wyrmlings often have multiple colors or a new color of scales depending on their parents due to the giving up of the prejudices between colors of their larger kin. </p>
+      <h4>ADVENTURING</h4>
+      <p>Dragovians that turn to adventure often become sorcerers. Many that travel the world do so turning to the inherited talents of their true dragon cousins. Often a dragovian will set out with a goal or quest to bring back artifacts or to spread diplomacy to the far reaches of the world. Some set out with the goal of learning how to return to the root of their people and become true dragons again. No matter the reason a dragovian has a natural charisma and talent for imbuing magical effects with their own elemental twist that adds their own personal touch to an adventure.</p>
+      <h4>DRAGOVIAN TRAITS</h4>
+      <p>Draconic Player Race, Winged casters similar to the Dragonborn.</p>
+      <p>
+      <span class="feature">Ability Score Increase.</span>Your Charisma increases by 2, and one other ability score increases by 1.<br/>
+      <span class="feature">Age.</span>Dragovian mature slowly like most other dragons. They reach adulthood by 60 years of age and usually live up to 1200 years.<br/>
+	    <span class="feature">Alignment</span>Dragovian culture embraces reasoning and learning. Most Dragovian are not fond of extreme alignments due to their need to distance themselves from the old ideals that cause the schism between the chromatic and metallic dragons.<br/>
+      <span class="feature">Size.</span>Dragovian stand at about five to six feet tall, but usually somewhere in the middle. They have thin, deceptively lightweight bodies around 100 pounds. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+      <span class="feature">Darkvision.</span>Dragovian are adapted for living and flying at twilight hours. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+      <span class="feature">Wings.</span>You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.<br/>
+      <span class="feature">Dragon Ancestry.</span>Choose one type of dragon. Your scales, spell element, and damage resistances are determined by your Draconic Ancestry.<br/>
+	    <span class="feature">Spell Conversion.</span>You can choose to convert your spell damage type to match your Draconic Ancestry.<br/>
+      </p>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">5'6"</set>
+      <set name="weight" modifier="2d6">100 lb.</set>
+    </setters>
+    <rules>
+      <stat name="charisma" value="2"/>
+      <stat name="any" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="ID_LANGUAGE_DRACONIC" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_DRAGOVIAN_Wings" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_DRAGOVIAN_Dragon_Ancestry" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_DRAGOVIAN_Spell_Conversion" />
+    </rules>
+  </element>
+  
+   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_DRAGOVIAN_Wings">
+    <description>
+			<p> You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</p>
+		</description>
+		<sheet display="false">
+			<description> You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</description>
+		</sheet>
+  </element>
+  
+   <element name="Dragon Ancestry" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_DRAGOVIAN_Dragon_Ancestry">
+    <supports />
+    <description>
+      <p> Choose one type of dragon. Your scales, spell element, and damage resistances are determined by your Draconic Ancestry.</p>
+    </description>
+    <sheet display="true">
+      <description> Choose one type of dragon. Your scales, spell element, and damage resistances are determined by your Draconic Ancestry.</description>
+    </sheet>
+  </element>
+  
+  <element name="Spell Conversion" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_DRAGOVIAN_Spell_Conversion">
+		<description>
+			<p>You can choose to convert your spell damage type to match your Draconic Ancestry.</p>
+		</description>
+		<sheet>
+			<description>You can choose to convert your spell damage type to match your Draconic Ancestry.</description>
+		</sheet>
+	</element>
+</elements>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Salandin" type="Race" source="Homebrew" id="ID_BREW_RACE_Salandin">
+        <description>
+            <p></p>
+            <h4>LITTLE SALAMANDERFOLK</h4>
+            <p>The Salandin are a relatively shy race, living deep in jungles, rainforests and swamps. Other races refer to them as Salamanders, or Salamanderfolk. Technically this is a misconception, but the Salandin have made no efforts to correct it.</p>
+            <p class="indent"></p>
+            <h4>SOCIETY</h4>
+            <p>Salandin live in close-knit communities. Depending on where they call home, their communities could be on the ground, in makeshift floating villages, or up in the tree canopies where they are safe from most predators.</p>
+            <p class="indent"></p>
+            <h4>Salandin Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Your Dexterity score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong>Salandin mature quickly and live long, reaching maturity at the age of 15. The eldest known Salandin lived to be 200 years old.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong>The Salandin tend to be rather shy, so they often lean more towards Neutral alignments.</p>
+            <p class="indent"><strong><em>Size.</em></strong>Salandin can reach a height verying from 2 to 3 feet tall, weighing 30 to 40 pounds. Your size is small.</p>
+            <p class="indent"><strong><em>Speed.</em></strong>Despite their stature, they are relatively quick. Your speed is 30.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong>Because of their small size, the Salandin are often the target of predators. They have developed the ability to see in the dark, to better their chances of survival. You have darkvision up to 60 feet in dim light or darkness, you can only see in shades of grey.</p>
+            <p class="indent"><strong><em>Improving the Odds.</em></strong>Salandin are taught at a very young age varying skills and techniques to improve their chances of survival against predators. You may select any 3 skills to be proficient with, as well as one starting feat.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong>There are three different types of Salandin. Jungle, Rainforest, and Swamp. You must select one of these three.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>You can read, speak and write Common and one other language.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d6">2'</set>
+            <set name="weight" modifier="1d4">30 lb.</set>
+            <set name="names" type="male">cah, kyn, rom, kisman, gumger, kuedol, zomteh, lymdugam, hassasir, sasmoyel</set>
+            <set name="names" type="female">cah, kyn, rom, kisman, gumger, kuedol, zomteh, lymdugam, hassasir, sasmoyel</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="dexterity" value="2" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language" supports="Standard||Exotic" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_DARKVISION" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_IMPROVING_THE_ODDS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_Salandin_SUBRACE" />
+        </rules>
+    </element>
+
+    <element name="Darkvision" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_DARKVISION">
+        <description>
+            <p>Because of their small size, the Salandin are often the target of predators. They have developed the ability to see in the dark, to better their chances of survival. You have darkvision up to 60 feet in dim light or darkness, you can only see in shades of grey.</p>
+        </description>
+        <sheet>
+            <description>Because of their small size, the Salandin are often the target of predators. They have developed the ability to see in the dark, to better their chances of survival. You have darkvision up to 60 feet in dim light or darkness, you can only see in shades of grey.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+
+    <element name="Improving the Odds" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_IMPROVING_THE_ODDS">
+        <description>
+            <p>Salandin are taught at a very young age varying skills and techniques to improve their chances of survival against predators. You may select any 2 skills to be proficient with, as well as one starting feat.</p>
+        </description>
+        <sheet>
+            <description>Salandin are taught at a very young age varying skills and techniques to improve their chances of survival against predators. You may select any 2 skills to be proficient with, as well as one starting feat.</description>
+        </sheet>
+        <rules>
+            <select type="Feat" name="Feat (Improving the Odds)" />
+            <select type="Proficiency" name="Skill (Improving the Odds)" number="3" supports="Skill" />
+        </rules>
+    </element>
+
+    <element name="Salandin Subrace" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_Salandin_SUBRACE">
+        <description>
+            <p>There are three different types of Salandin. Jungle, Rainforest, and Swamp. You must select one of these three.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <select type="Sub Race" name="Salandin Subrace" supports="Salandin" />
+        </rules>
+    </element>
+
+    <element name="Jungle Salandin" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_JUNGLE_Salandin">
+        <supports>Salandin</supports>
+        <description>
+            <p>Jungle Salandin have learned to be more wary of their surroundings.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 1.<br />
+                <span class="feature">Wings.</span>You have wings that enable you to take to the skies, though you cannot fly if wearing medium or heavy armor. You have a flying speed of 30.<br />
+            </p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_WINGS" />
+        </rules>
+    </element>
+
+    <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_WINGS">
+          <description>
+                <p>You have wings that enable you to take to the skies, though you cannot fly if wearing medium or heavy armor. You have a flying speed of 30.</p>
+          </description>
+          <sheet>
+                <description>You have wings that enable you to take to the skies, though you cannot fly if wearing medium or heavy armor. You have a flying speed of 30.</description>
+          </sheet>
+          <rules>
+                <stat name="innate speed:fly" value="30" bonus="base" />
+          </rules>
+    </element>
+
+    <element name="Rainforest Salandin" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_RAINFOREST_Salandin">
+      <supports>Salandin</supports>
+        <description>
+            <p>Rainforest Salandin make their homes up in the tree canopy and are excellent climbers.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1.<br />
+                <span class="feature">Expert Climbers.</span>You have a climbing speed of 30 and can climb vertical surfaces.<br />
+            </p>
+        </description>
+        <sheet display="false" />     
+        <rules>
+            <stat name="constitution" value="1" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_EXPERT_CLIMBERS" />
+        </rules> 
+    </element>
+
+    <element name="Expert Climbers" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_EXPERT_CLIMBERS">
+          <description>
+                <p>You have a climbing speed of 30 and can climb vertical surfaces.</p>
+          </description>
+          <sheet>
+                <description>You have a climbing speed of 30 and can climb vertical surfaces.</description>
+          </sheet>
+          <rules>
+                <stat name="innate speed:climb" value="30" bonus="base" />
+          </rules>
+    </element>
+
+    <element name="Swamp Salandin" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_SWAMP_Salandin">
+        <supports>Salandin</supports>
+        <description>
+            <p>Swamp Salandin live in makeshift villages that are hidden deep in the swamp. They are excellent swimmers.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 1.<br />
+                <span class="feature">Amphibious.</span>You have a swimming speed of 30 and can breathe underwater.<br />
+            </p>
+        </description>
+        <sheet display="false" />     
+        <rules>
+            <stat name="wisdom" value="1" />
+            <grant type="Racial Trait" id="ID_BREW_RACIAL_TRAIT_AMPHIBIOUS" />
+        </rules> 
+    </element>
+
+    <element name="Amphibious" type="Racial Trait" source="Homebrew" id="ID_BREW_RACIAL_TRAIT_AMPHIBIOUS">
+          <description>
+                <p>You have a swimming speed of 30 and can breathe underwater.</p>
+          </description>
+          <sheet>
+                <description>You have a swimming speed of 30 and can breathe underwater.</description>
+          </sheet>
+          <rules>
+                <stat name="innate speed:swim" value="30" bonus="base" />
+          </rules>
+    </element>
+
+</elements>

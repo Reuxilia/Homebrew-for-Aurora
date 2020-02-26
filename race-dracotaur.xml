@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Dracotaur</name>
+    <description></description>
+    <author url="https://www.dandwiki.com/wiki/Dracotaur_(5e_Race)">Homebrew</author>
+    <update version="0.2.0">
+      <file name="race-dracotaur.xml" url="https://www.dandwiki.com/wiki/Dracotaur_(5e_Race)" />
+    </update>
+  </info>
+  <element name="Dracotaur" type="Race" source="Homebrew" id="ID_RACE_DRACOTAUR">
+    <supports />
+    <description>
+      <p class="flavor">And they shuddered, cold and limp they were but a mere moment ago... Like drowned men returned from beyond, they choked and gasped as they had when they vanished from the surface, gagged by the putrid blood of hate. But this time was different. Breaths of air filled them and rejuvenated their dead innards and they breathed their first, reborn as warriors of dragon kind.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Dracotaur, evolved from centaurs, have the lower body, not of a horse, but a wingless dragon. Their upper body and torso resemble that of a humanoid dragon, like a dragonborn. There are four variants of dracotaur, each delineated by the colors of their scales. There is the common blue, red, yellow and green dracotaur. Like centaurs, they do not dress much, usually wearing just sparse armor. They are not as large and therefore not as easily ridden as centaurs, though they are certainly heavy still and quite tall.</p>
+      <h4>HISTORY</h4>
+      <p>Centuries ago, at the edge of the plains where centaurs galloped freely, cajoling and pillaging human settlements were the mountains where the fearsome dragons lived. The lord of the dragons in that area was Azuran of the Four Winds. The dragons looked upon all the dwellers of the plain as mere fodder, bound to the mortal earth they ran upon like ants. Often, dragons would go and abduct humans, as well as livestock and even these centaurs for food or sport. At first, it was seemingly just bad luck, should one get caught in the talons of the mighty dragons. However, as this wore on, the centaurs were feeling fed up losing kin to those in the mountains. So they sought to rebel and strike down the next dragon that should come. As luck would have it, a pregnant she-dragon descended to the plains to feed. She was greeted by a mass of arrows from angry centaurs, who chased her from the plain. As she was bearing young, her wings could not fly as fast or as high, and the arrows left many wounds, which weakened them further. Though she escaped the centaurs by flying further than their stamina could run, she succumbed to her injuries and died within the plains. Humans and centaurs alike looted her body and smashed her unborn ova. Furious, Azuran and his brethren flew down and ravaged the plains in revenge. They burned the human settlements and razed the plains, encircling it in a rim of fire so none may escape. The centaurs made their brave stand against the onslaught of the dragons, but they were not able to withstand the mighty creatures. Many died to dragon breath and claw. Azuran decreed that the survivors would replace the kin which were lost to him when the unborn eggs were smashed. So he and the other dragons took the survivors and herded them to where the she-dragon's body lay. Her blood had flowed so freely that it formed a lake. It bubbled with her rage for herself and her unborn children. Relentless, Azuran and his followers threw the centaurs in and had them drowned. Azuran then cut his own hand and let his own blood flow into the mix, finishing the ritual. The blood ceased its bubbling and quietly roiled instead, its revenge seemingly sated. Five days passed before Azuran had the bodies fished out. As the half-coagulated blood sloughed off the limp, dripping bodies, one could see that they had changed completely from their original form, now resembling dragons. Azuran called upon the four winds and used each of their powers to breathe life back into the bodies. As breath returned to their lungs, they became animated by the wills of the winds, subservient to Azuran. The north wind, Boreas, turned the blue skin into scales and crackled within their throats with lightning. The south wind, Notos, heated the bodies so they turned red of scale and could breathe flames. Eurus, the east wind, was not so lively and so the quarter he animated turned yellow, but with voices that clapped like thunder. Zephyr, the last of the winds, breathed into his given quarter last. They did not stir and he was worried, as Azuran would punish him for incompetence. His poisonous breath turned the bodies green and it was not until the third attempt that the gargled noise of air issued forth from the lifeless bodies. And thus the dracotaurs were born. Azuran sent them out to be fruitful and grow in population to restore the razed plains as his faithful servants.</p>
+      <h4>SOCIETY</h4>
+      <p>Dracotaur live and hunt in small packs. They are traditionally trained to use not only their dragon breath, but also their archery, which remains a skill from their time as centaurs. These hunting packs are unisex and they travel like nomads over the plains. Young are raised on the go. Dracotaurs of different colors prefer different terrains and so have scattered since their resurrection. The blue dragons stayed near their original plain. Reds ventured for the hotter areas by volcanic mountains where black ash fell like snow on the grasses. Yellow dracotaurs sought secluded areas of flat plains where storms frequented with claps of thunder and lightning often struck the trees, leaving them charred and gnarled. Green dracotaurs patrol about plains near the forests and woodlands, where their green scales aided in camouflage. All dracotaur are innately subservient to dragons and still strive to serve Azuran.</p> 
+      <h4>DRACOTAUR NAMES</h4>
+      <p>Dracotaur take names from centaur and draconic origin. Their names will have a draconic last name to show that is their true affiliation.</p>
+      <p>
+        <b>Male Names: </b>Casys Dilkelek, Perron Kirjath, Ajex Kloxitek
+        <br/>
+        <b>Female Names: </b>Isea Clekath, Kephina Nyompuc, Paliala Ulrod
+        <br/>
+      </p>
+      <h4>DRACOTAUR TRAITS</h4>
+      <p>Dragon Centaurs!</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Strength score increases by 2.
+        <br />
+        <span class="feature">Age.</span>Like dragonborn, dracotaur mature quickly. They have the same life expectancy as humans like centaurs, living up to about 120 years, usually.
+        <br />
+        <span class="feature">Alignment.</span>Dracotaur are inclined towards lawfulness to follow Azuran.
+        <br />
+        <span class="feature">Size.</span>Dracotaur often weigh about the same as a draft horse. Your size is Large.
+        <br />
+        <span class="feature">Speed.</span>Your base walking speed is 50 feet.
+        <br />
+        <span class="feature">Charge.</span>If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon’s damage dice twice and add them together.
+        <br />
+        <span class="feature">Bite.</span>Your bite counts as a natural weapon. It deals 2d6 + strength modifier piercing damage.
+        <br />
+        <span class="feature">Claws.</span>Your claws are natural weapons, in which you are proficient. If you hit with them, you deal slashing damage equal to 2d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+        <br />
+        <span class="feature">Type.</span>Your creature type is dragon.
+        <br />
+        <span class="feature">Dragon Hide</span>While not wearing armor, you have a natural AC of 13 + Dex modifier.
+        <br />
+        <span class="feature">Ancestry of the Four Winds.</span>You have ancestry granted from the four winds of Azuran. Choose one type from the Four Winds Ancestry table. Your breath weapon is determined by the wind type, as shown in the table.
+        <br />
+        <span class="feature">Breath Weapon.</span>You can use your action to exhale destructive energy. Your Ancestry of the Four Winds determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your Wind Ancestry. The DC for this saving throw equals 8 + your Strength modifier + your Proficiency Bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.
+        <br />
+        <span class="feature">Damage Resistance.</span>You have resistance to the damage type associated with your Ancestry of the Four Winds.
+        <br />
+        <span class="feature">Languages.</span>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+        <br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Casys Dilkelek, Perron Kirjath, Ajex Kloxitek</set>
+      <set name="names" type="female">Isea Clekath, Kephina Nyompuc, Paliala Ulrod</set>
+      <set name="height" modifier="3d4">6'2"</set>
+      <set name="weight" modifier="2d6">300 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2"/>
+      <stat name="innate speed" value="50" bonus="base" />
+      <grant type="Size" id="ID_SIZE_LARGE" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BREATH_WEAPON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+      <stat name="dragon hide:natural armor" value="13" />
+	  <stat name="dragon hide:natural armor" value="dexterity:modifier" />
+	  <stat name="ac:calculation" value="dragon hide:natural armor" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (dragon hide)" />
+	</rules>
+  </element>
+  <element name="Ancestry of the Four Winds" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS">
+    <description>
+      <p>You have ancestry granted from the four winds of Azuran. Choose one type from the Four Winds Ancestry table. Your breath weapon is determined by the wind type, as shown in the table..</p>
+      <h5>ANCESTRY OF THE FOUR WINDS</h5>
+      <table>
+        <thead>
+          <tr><td>Dragon</td><td>Damage Type</td><td>Breath Weapon</td></tr>
+        </thead>
+        <tr><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+        <tr><td>Green</td><td>Poison</td><td>15 ft. cone (Con. save)</td></tr>
+        <tr><td>Red</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+        <tr><td>Yellow</td><td>Thunder</td><td>15 ft. cone (Con. save)</td></tr>
+      </table>
+    </description>
+    <sheet />
+    <rules>
+      <select type="Racial Trait" name="Ancestry of the Four Winds" supports="Ancestry of the Four Winds" />
+    </rules>
+  </element>
+  <element name="Breath Weapon" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+    <supports />
+    <description>
+      <p>You can use your action to exhale destructive energy. Your Ancestry of the Four Winds determines the size, shape, and damage type of the exhalation.</p>
+      <p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your Wind Ancestry. The DC for this saving throw equals 8 + your Strength modifier + your Proficiency Bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+      <p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
+    </description>
+    <sheet action="Action" usage="1/Short Rest">
+      <description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{ancestry-of-the-four-winds:damage type}} damage in a {{ancestry-of-the-four-winds:breath}}  DC {{breath-weapon:dc}}</description>
+    </sheet>
+    <rules>
+      <stat name="breath-weapon:dc" value="8" />
+      <stat name="breath-weapon:dc" value="strength:modifier" />
+      <stat name="breath-weapon:dc" value="proficiency" />
+      <stat name="breath-weapon:dice size" value="6" bonus="dice" />
+      <stat name="breath-weapon:dice count" value="2" level="1" />
+      <stat name="breath-weapon:dice count" value="1" level="6" />
+      <stat name="breath-weapon:dice count" value="1" level="11" />
+      <stat name="breath-weapon:dice count" value="1" level="16" />
+    </rules>
+  </element>
+  <element name="Damage Resistance" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+    <description>
+      <p>You have resistance to the damage type associated with your ancestry of the four winds.</p>
+    </description>
+    <sheet>
+      <description>You have resistance to {{ancestry-of-the-four-winds:damage type}}.</description>
+    </sheet>
+    <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_BLUE" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_RED" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_GREEN" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" requirements="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_YELLOW" />
+	</rules>
+  </element>
+  <element name="Ancestry of the Four Winds (Blue)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_BLUE">
+    <supports>Ancestry of the Four Winds</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS" />
+    </description>
+    <sheet alt="Blue">
+      <description>Your Ancestry of the Four Winds is {{ancestry-of-the-four-winds}}. Your damage type is {{ancestry-of-the-four-winds:damage type}}. Your breath weapon is {{ancestry-of-the-four-winds:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="ancestry-of-the-four-winds" value="Blue"/>
+      <stat inline="true" name="ancestry-of-the-four-winds:damage type" value="Lightning" />
+      <stat inline="true" name="ancestry-of-the-four-winds:breath" value="5 by 30 ft. line (Dex. save)" />
+    </rules>
+  </element>
+  <element name="Ancestry of the Four Winds (Green)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_GREEN">
+    <supports>Ancestry of the Four Winds</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS" />
+    </description>
+    <sheet alt="Green">
+      <description>Your Ancestry of the Four Winds is {{ancestry-of-the-four-winds}}. Your damage type is {{ancestry-of-the-four-winds:damage type}}. Your breath weapon is {{ancestry-of-the-four-winds:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="ancestry-of-the-four-winds" value="Green"/>
+      <stat inline="true" name="ancestry-of-the-four-winds:damage type" value="Poison" />
+      <stat inline="true" name="ancestry-of-the-four-winds:breath" value="15 ft. cone (Con. save)" />
+    </rules>
+  </element>
+  <element name="Ancestry of the Four Winds (Red)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_RED">
+    <supports>Ancestry of the Four Winds</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS" />
+    </description>
+    <sheet alt="Red">
+      <description>Your Ancestry of the Four Winds is {{ancestry-of-the-four-winds}}. Your damage type is {{ancestry-of-the-four-winds:damage type}}. Your breath weapon is {{ancestry-of-the-four-winds:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="ancestry-of-the-four-winds" value="Red"/>
+      <stat inline="true" name="ancestry-of-the-four-winds:damage type" value="Fire" />
+      <stat inline="true" name="ancestry-of-the-four-winds:breath" value="15 ft. cone (Dex. save)" />
+    </rules>
+  </element>
+  <element name="Ancestry of the Four Winds (Yellow)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS_YELLOW">
+    <supports>Ancestry of the Four Winds</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_ANCESTRY_OF_THE_FOUR_WINDS" />
+    </description>
+    <sheet alt="Yellow">
+      <description>Your Ancestry of the Four Winds is {{ancestry-of-the-four-winds}}. Your damage type is {{ancestry-of-the-four-winds:damage type}}. Your breath weapon is {{ancestry-of-the-four-winds:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="ancestry-of-the-four-winds" value="Yellow"/>
+      <stat inline="true" name="ancestry-of-the-four-winds:damage type" value="Thunder" />
+      <stat inline="true" name="ancestry-of-the-four-winds:breath" value="15 ft. cone (Con. save)" />
+    </rules>
+  </element>
+</elements>

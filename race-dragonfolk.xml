@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Dragonfolk</name>
+        <description>5e homebrew</description>
+        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+        <update version="0.0.3">
+            <file name="race-dragonfolk.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/races/race-dragonfolk.xml" />
+        </update>
+    </info>
+  
+  <element name="Dragonfolk" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_DRAGONFOLK">
+    <description>
+      <p class="flavor">Meryl couldn't believe her eyes. She was sitting on the back of her pegasus who flew across the great city in the clouds. There was a large floating island full of the tallest spires that pierced the heavens, airships docked on it's side full of trading goods to and fro. The majority of the populace were dragons! They were relatively small, lithe creatures who flew from building to building doing daily business. This was their city and they managed to build their own empire.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>While dragonborn exemplify the raw power of dragons, dragonfolk exemplify the grace and intellect of dragons. Dragonfolk are humanoid-sized dragons who walk upright and have a graceful, sinuous look. They come in a wide variety of colors and features depending on subrace, region, or heritage. They sport very dexterous hands which they have mastered in crafting and the arcane arts. These boons however are countered with the relative fragility of dragonfolk due to figure and hollow bones, and they have lost their innate breath weapons over time. Dragonfolk dress tends to be minimal, but can vary by the local culture, usually dragonfolk dress is limited to ornate jewelry, light armor, and accessories, but there are those who dress more. Their jaws are not as strong as a dragonborn's, so they prefer not to bite when attacking, but they still have their claws and if their tails have metal adornments, they can use it as a lashing weapon to those who dare sneak behind them.</p>
+      <h4>HISTORY</h4>
+      <p>Dragonfolk most likely have their origins shared with other dragons. Most dragonfolk do not distinguish themselves as a people different from dragons as a whole. Some dragonfolk lore does suggest that dragonfolk descend from dragons who wanted to mingle with the humanoid races without a disguise, other lore suggests that dragonfolk were dragons whose growth and power was severely stunted and so they decided to make up for it by creating their own civilization. Dragonfolk cities are mostly secluded to mountaintops and floating islands, of which there is very limited land space. These places are also hard to reach without airborne transportation, thus these cities have been relatively isolated from most humanoid races for many centuries, only within the past few centuries has their been constant trade and contact.</p>
+      <h4>SOCIETY</h4>
+      <p>Dragonfolk society is aimed at intellectual pursuits. They often learn their first cantrips in childhood. Dragonfolk travel easily, so they are also natural-born explorers who have mapped their surroundings well. Dragonfolk do not reproduce often due to the small spaces they occupy and their long lifespans. When a dragonfolk city begins to be overcrowded, dragonfolk then move to make another settlement, sometimes coming into conflict with other races that live in the skies like aarakcrocras and sylphs. More recently, dragonfolk have been moving in cities with humanoids and blending in, or settling on the ground where there is far less competition for land. Most metropolitan areas and academies welcome them with open arms for their link to the great dragons and advancements in science and magic. Dragonfolk mostly speak a dialect of Draconic that sounds less harsh and more refined.</p>
+      <h4>DRAGONFOLK NAMES</h4>
+      <p>Dragonfolk use Draconic names, and don't have specific gendered names.</p>
+      <p>
+        <span class="emphasis">Names: </span>Aeoron, Auir, Irden, Ingeir, Jalan, Klauth, Mornagham, Sierrhal, Syrrth, Tarra, Vaeros, Zorralth<br />
+      </p>
+      <h4>DRAGONFOLK TRAITS</h4>
+      <p>Medium-sized agile dragons who excel in spellcasting.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Dexterity score increases by 2.<br />
+        <span class="feature">Age. </span>Dragonfolk mature slowly like most other dragons. They reach adulthood by 40 years of age and usually live up to 600 years, but it is not unheard of for some of them to even reach a thousand.<br />
+        <span class="feature">Alignment. </span>Dragonfolk culture embraces reasoning and enlightenment. Being too rigid or too passionate is discouraged. Most dragonfolk are not fond of lawful or chaotic alignments, and therefore prefer neutrality with good, evil, or neither.<br />
+        <span class="feature">Size. </span>Dragonfolk stand at about five to six feet tall, but usually somewhere in the middle. They have thin, lightweight bodies around 100 pounds. Your size is Medium.<br />
+        <span class="feature">Speed. </span>Your base walking speed is 30 feet. Your base flying speed is 30 feet. You cannot fly if you are wearing medium or heavy armor.<br />
+        <span class="feature">Darkvision. </span>Dragonfolk are adapted living and flying at twilight hours. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey.<br />
+        <span class="feature">Dragon. </span>Your creature type is both dragon and humanoid.<br />
+        <span class="feature">Claws. </span>Dragonfolk still have sharp claws. You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.<br />
+        <span class="feature">Damage Resistance. </span>You have resistance to the damage type associated with your draconic ancestry as seen on page 34 of the Players Handbook.<br />
+        <span class="feature">Languages. </span>You can speak, read, and write Common and Draconic.<br />
+        <span class="feature">Subrace. </span>Pick one from Arcane, Hardened, Shadow and Tatsu.<br />
+      </p>
+    </description>
+    <rules>
+      <stat name="dexterity" value="2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <stat name="fly speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAGON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CLAWS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAGONFOLK_SUBRACE" />
+    </rules>
+  </element>
+
+  <element name="Dragon" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_DRAGON">
+    <supports />
+    <requirements />
+    <description>
+      <p>Your creature type is both dragon and humanoid.</p>
+    </description>
+    <sheet>
+      <description>Your creature type is both dragon and humanoid.</description>
+    </sheet>
+  </element>
+  <element name="Claws" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_CLAWS">
+    <supports />
+    <requirements />
+    <description>
+      <p>Dragonfolk still have sharp claws. You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.</p>
+    </description>
+    <sheet display="false">
+      <description>You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.</description>
+    </sheet>
+  </element>
+  <element name="Damage Resistance" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+    <supports />
+    <requirements />
+    <description>
+      <p>You have resistance to the damage type associated with your draconic ancestry as seen on page 34 of the Players Handbook.</p>
+    </description>
+    <sheet display="false"/>
+  </element>
+  <element name="Dragonfolk Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_DRAGONFOLK_SUBRACE">
+    <supports></supports>
+    <requirements />
+    <description>
+      <p>Pick one from Arcane, Hardened, Shadow and Tatsu.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Sub Race" name="Dragonfolk Subrace" supports="Dragonfolk" />
+    </rules>
+  </element>
+ 
+    <element name="Arcane" type="Sub Race" source="D&amp;D Wiki" id="ID_SUB_RACE_ARCANE">
+      <supports>Dragonfolk</supports>
+      <description>
+      <p>Arcane dragonfolk are the most common subrace of dragonfolk. They have an amazing aptitude for magic of the learned or innate type. Their most common scale colors are blues, purples, teals, and magentas, sometimes with a metallic sheen.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Intelligence increases by 1<br />
+        <span class="feature">Magical Talent.</span>You know the prestidigitation cantrip.<br />
+        <span class="feature">Magical Adept.</span>You are proficient in the Arcana skill.<br />
+      </p>
+      </description>
+      <rules>
+      <stat name="Intelligence" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+      <grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+      </rules>
+  </element> 
+
+    <element name="Hardened" type="Sub Race" source="D&amp;D Wiki" id="ID_SUB_RACE_HARDENED">
+      <supports>Dragonfolk</supports>
+      <description>
+      <p>Some dragonfolk are not as fragile as others, some clans have emphasized a certain amount of toughness and physical prowess alongside their magical aptitude. They typically have scale colors in muted natural tones such as browns, ochres, grays, and greens that match their surroundings. Those that live in unforgiving icy regions have white scales.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Constitution increases by 1<br />
+        <span class="feature">Ability Score Increase.</span>Your Wisdom increases by 1<br />
+        <span class="feature">Magic Toughness.</span>You know the resistance cantrip.<br />
+        <span class="feature">Survival Education.</span>Hardened dragonfolk culture emphasizes self-sufficiency and knowledge of the wilderness. You have proficiency in Survival.<br />
+      </p>
+      </description>
+      <rules>
+      <stat name="Constitution" value="1" />
+      <stat name="Wisdom" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+      <grant type="Spell" id="ID_PHB_SPELL_RESISTANCE" />
+      </rules>
+  </element> 
+
+    <element name="Shadow" type="Sub Race" source="D&amp;D Wiki" id="ID_SUB_RACE_SHADOW">
+      <supports>Dragonfolk</supports>
+      <description>
+      <p>Shadow dragonfolk are just as elusive as their name suggests. They are nocturnal sentinels that are masters of staying hidden and gaining knowledge from outside the shadows. Their scale colors are dark, especially black. Clans, families, and settlements of shadow dragonfolk have strong traditions in studying the outside of the world, even in the dark and secretive places and then returning to dragonfolk settlements to barter or share that information. If one wants to know about the daily on-goings of underground societies, the best source of information would be shadow dragonfolk; thus many find business in selling information and investigation. This does not mean that shadow dragonfolk are limited to just watching in the margins.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Charisma increases by 1<br />
+        <span class="feature">Superior Darkvision.</span>Your darkvision has a radius of 120 feet.<br />
+        <span class="feature">Sunlight Sensitivity.</span>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.<br />
+        <span class="feature">Naturally Stealthy.</span>You are proficient in the Stealth skill.<br />
+      </p>
+      </description>
+      <rules>
+      <stat name="Charisma" value="1" />
+      <grant type="Racial Trait" id="ID_VISION_SUPERIORDARKVISION" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+      </rules>
+  </element> 
+
+  <element name="Tatsu" type="Sub Race" source="D&amp;D Wiki" id="ID_SUB_RACE_TATSU">
+    <supports>Dragonfolk</supports>
+    <description>
+    <p>Tatsu are sometimes said to be the oldest subrace of dragonfolk, but nobody can say for sure. They differ from common dragonfolk by having slightly more serpentine bodies, forked horns that resemble antlers, visible ears, and a soft mane that runs from the top of their head to the middle of their neck. They are known for their rigorous interest in recording and documenting history for future generations to learn from. Tatsu often have a strong reverence for nature and the elements much like elves. Common scale colors are golds, silvers, greens, blacks, blues, and reds.</p>
+    <p>
+      <span class="feature">Ability Score Increase.</span>Your Wisdom increases by 1<br />
+      <span class="feature">Superior Will.</span>You have advantage on all Wisdom saving throws against magic.<br />
+    </p>
+    </description>
+    <rules>
+    <stat name="Wisdom" value="1" />
+    <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUPERIOR_WILL" />
+    </rules>
+  </element> 
+    
+	<element name="Superior Will" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_SUPERIOR_WILL">
+		<description>
+			<p>You have advantage on all Wisdom saving throws against magic.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on all Wisdom saving throws against magic.</description>
+		</sheet>
+	</element>
+  
+
+</elements>

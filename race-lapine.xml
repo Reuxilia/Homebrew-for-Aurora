@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Lapine</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Lapine.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Lapine" type="Race" source="Homebrew" id="ID_HMBRW_RACE_Lapine">
+    <description>
+      <h4>Lapine</h4>
+      <p>Sometimes called "rabbit folk," lapines are medium-sized humanoids with rabbit-like features, including large, highly sensitive ears and powerful legs. Their bodies are covered in a coat of short fur, most commonly in shades of brown, black, grey, and white. Lapines have three-fingered hands with a single opposable thumb, long, four-toed feet, and large, powerfully muscled legs. Their fingers and toes end in short claws. Adult lapines stand between four and five feet tall, with females generally larger and more powerfully-built than males. A lapine warrior favors light or medium armor and prides him- or herself on being strong, fast, watchful, and clever. A large female can weigh 120 pounds or more, although the average is closer to 100 pounds. Like their rabbit kin, lapines have keen senses, particularly hearing, and tend to maintain an alert, watchful stance even when at rest. For this reason, they are often taken as jumpy or fearful by other humanoid races. Descended from prey animals, lapine culture places a high priority on security and emphasizes the importance of the group over the individual. As a result, lapines tend to be extremely reclusive, bordering on xenophobic. Lapines see themselves as surrounded by enemies, called elil or u embleer hrair (“the stinking thousand”), and rarely venture beyond the safety of their own communities. Lapine player characters tend to be outcasts, misfits, renegades, and others who have been separated — often unwillingly — from their people.</p> 
+      <h4>Children of El-ahrairah</h4>
+      <p>The lapine religion characterizes the sun as Frith, a benign creator-god. The moon is Inlé, a land of darkness and realm of the Black Rabbit of Inlé, the god of death. But by far the most important figure in the lapine pantheon is El-ahrairah, the Prince with a Thousand Enemies, a trickster god and folk hero who is considered the father of the lapine race. Lapine children grow up hearing stories of El-ahrairah, lapine clerics worship and draw their strength from him, and ordinary lapine folk routinely invoke his name for luck, strength, good harvest, etc. Lapines consider themselves to be the Children of El-ahrairah. </p>
+      <p class="indent"></p>
+      <h4>Warrens</h4>
+      <p>Lapine life is centered on warrens, independent communities of lapines usually made up of multiple families with complex interwoven bloodlines. Each warren is essentially a clan, and warren names are often used as surnames by those few lapines who interact with the outside world. Like traditional hobbit homes, warrens are built partially underground, often beneath low hills or downs. Unlike hobbit villages, however, lapine communities are interconnected below ground, often creating a bewildering maze of tunnels and passageways. In most warrens, public spaces are entirely underground, and there may be as few as two exits to the outside world. In wealthier warrens, it is more common for individual domiciles to have their own entrances/exits, windows, etc. More secretive warrens may disguise or even booby-trap their entrances.</p>
+      <p class="indent"></p>
+      <h4>Unity, Order, and Strength</h4>
+      <p>Lapine society is highly rigid and structured, with a hierarchical collective leadership. Each warren is led by a council of elders, at the head of which is a chief. Chiefs append the honorific -rah (roughly translated as “prince” or “leader”) to their names. The role of chief varies from benign figurehead to military dictator, but most warrens prefer a more consultative, quasi-democratic approach. In most warrens, the council oversees the Owsla, or military caste, responsible for maintaining order and ensuring the security of the warren. Owsla value discipline, bravery, and honor, and as the most adventurous class of lapine they are the most likely to have contact with outsiders. Lapine warrens serve a purpose similar to medieval castles, with a large, central burrow complexes acting as strongholds and places of refuge to their inhabitants in place of keeps. Although lapines are not aggressive by nature, they will fiercely defend their warrens against attack and have occasionally even been known to go to war with neighboring warrens.</p>
+      <p class="indent"></p>
+      <h4>Lapine Names</h4>
+      <p>Lapine names tend to reflect the natural world and are often unpronounceable by other races. For this reason, Lapine's usually give their names in Common when dealing with outsiders.</p>
+      <span class="feature">Ability Score Increase.</span>Your Dexterity increases by 2, and Wisdom increases by 1.<br/>
+      <span class="feature">Age.</span>Lapine reach maturity around the age of 15 and live for about 120 years.<br/>
+	    <span class="feature">Alignment</span>Lapines may be any alignment, but tend to gravitate toward lawful and neutral alignments. Lapines are rarely chaotic.<br/>
+      <span class="feature">Size.</span>Adult lapines stand between 4-5 feet tall and weigh between 60-120 pounds. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 35 feet.<br/>
+      <span class="feature">Darkvision.</span>Accustomed to life in the warren. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+      <span class="feature">Keen Senses.</span>All lapines have proficiency in the Perception skill. In addition, you have advantage on all Perception checks that involve hearing.<br/>
+      <span class="feature">Language of the Hedgerow.</span>Through a combination of body language, gestures, and sounds you can communicate simple ideas with Small or smaller creatures native to forests, woods, meadows, grasslands, deserts, wetlands, and any other habitats to which rabbits and hares are native.<br/>
+      <span class="feature">Graceful Athlete.</span>You can use Acrobatics in place of any Atheltics checks. You are also proficient in Acrobatics.<br/>
+      <span class="feature">Powerful Jumper.</span>Lapines have extremely powerful leg muscles. You can use your Dexterity score in place of your Strength score in regards to jumping.<br/>
+      <span class="feature">Claws.</span>If your feet are unshod, you can use your claws to deliver an extra 1d4 slashing damage on a kick.<br/>
+      <span class="feature">Obligate Vegetarian.</span>Lapines cannot eat meat. If you do so you must make a DC 15 Constitution saving throw or be poisoned until you take a long rest.<br/>
+      <span class="feature">Lapine Versatility.</span>Lapines are known to be a folk ranging in an extensive amount of skills. You gain a starting feat to choose from.<br/>
+      <span class="feature">Good Diggers.</span>Lapines are very good at digging, since their warrens tend to be underground. You have a burrowing speed of 10.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d6">4'</set>
+      <set name="weight" modifier="1d6">60 lb.</set>
+      <set name="names" type="male">Blackavar, Buckthorn, Campion, Celandine, Charlock, Chervil, Hawkbit, Hlao-roo, Hrairoo, Laburnum, Nightshade, Orchis, Sainfoin, Scabious, Speedwell, Thlayli, Threar, Vervain</set>
+      <set name="names" type="female">Anflellen, Betony, Clover, Flyairth, Hyzenthlay, Nelthilta, Nildro-hain, Nyreem, Thethuthinnang, Thrayonlosa, Vilthuril, Violet</set>
+      <set name="names-format">{{name}}</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="wisdom" value="1"/>
+      <stat name="innate speed" value="35" bonus="base"/>
+      <select type="Feat" name="Feat (Lapine Versatility)" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_DARKVISION" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_KEEN_SENSES" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_LANGUAGE_OF_THE_HEDGEROW" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GRACEFUL_ATHLETE" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_POWERFUL_JUMPER" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_CLAWS" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_OBLIGATE_VEGETARIAN" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GOOD_DIGGERS" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_LAPINE_VERSATILITY" />
+    </rules>
+  </element> 
+  <element name="Darkvision" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_DARKVISION">
+    <description>
+      <p>Accustomed to life in the warren. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+    </description>
+    <sheet>
+      <description>Accustomed to life in the warren. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+    </sheet>
+  </element> 
+  <element name="Keen Senses" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_KEEN_SENSES">
+    <description>
+      <p>All lapines have proficiency in the Perception skill. In addition, you have advantage on all Perception checks that involve hearing.</p>
+    </description>
+    <sheet>
+      <description>All lapines have proficiency in the Perception skill. In addition, you have advantage on all Perception checks that involve hearing.</description>
+    </sheet>
+  </element>
+  <element name="Language of the Hedgerow" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_LANGUAGE_OF_THE_HEDGEROW">
+    <description>
+      <p>Through a combination of body language, gestures, and sounds you can communicate simple ideas with Small or smaller creatures native to forests, woods, meadows, grasslands, deserts, wetlands, and any other habitats to which rabbits and hares are native.</p>
+    </description>
+    <sheet>
+      <description>Through a combination of body language, gestures, and sounds you can communicate simple ideas with Small or smaller creatures native to forests, woods, meadows, grasslands, deserts, wetlands, and any other habitats to which rabbits and hares are native.</description>
+    </sheet>
+  </element>
+  <element name="Graceful Athlete" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_GRACEFUL_ATHLETE">
+    <description>
+      <p>You can use Acrobatics in place of any Atheltics checks. You are also proficient in Acrobatics.</p>
+    </description>
+    <sheet>
+      <description>You can use Acrobatics in place of any Atheltics checks. You are also proficient in Acrobatics.</description>
+    </sheet>
+  </element>
+  <element name="Powerful Jumper" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_POWERFUL_JUMPER">
+    <description>
+      <p>Lapines have extremely powerful leg muscles. You can use your Dexterity score in place of your Strength score in regards to jumping.</p>
+    </description>
+    <sheet>
+      <description>Lapines have extremely powerful leg muscles. You can use your Dexterity score in place of your Strength score in regards to jumping.</description>
+    </sheet>
+  </element>
+  <element name="Claws" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_CLAWS">
+    <description>
+      <p>If your feet are unshod, you can use your claws to deliver an extra 1d4 slashing damage on a kick.</p>
+    </description>
+    <sheet>
+      <description>If your feet are unshod, you can use your claws to deliver an extra 1d4 slashing damage on a kick.</description>
+    </sheet>
+  </element>
+  <element name="Obligate Vegetarian" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_OBLIGATE_VEGETARIAN">
+    <description>
+      <p>Lapines cannot eat meat. If you do so you must make a DC 15 Constitution saving throw or be poisoned until you take a long rest.</p>
+    </description>
+    <sheet>
+      <description>Lapines cannot eat meat. If you do so you must make a DC 15 Constitution saving throw or be poisoned until you take a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Lapine Versatility" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_LAPINE_VERSATILITY">
+    <description>
+      <p>Lapines are known to be a folk ranging in an extensive amount of skills. You gain a starting feat to choose from.</p>
+    </description>
+    <sheet>
+      <description>Lapines are known to be a folk ranging in an extensive amount of skills. You gain a starting feat to choose from.</description>
+    </sheet>
+  </element>
+  <element name="Good Diggers" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_GOOD_DIGGERS">
+    <description>
+      <p>Lapines are very good at digging, since their warrens tend to be underground. You have a burrowing speed of 10.</p>
+    </description>
+    <sheet>
+      <description>Lapines are very good at digging, since their warrens tend to be underground. You have a burrowing speed of 10.</description>
+    </sheet>
+  </element>
+</elements>

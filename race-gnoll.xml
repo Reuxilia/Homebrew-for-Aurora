@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Gnoll</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Gnoll.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Gnoll" type="Race" source="Homebrew" id="ID_HMBRW_RACE_GNOLL">
+    <description>
+      <h4>Gnoll</h4>
+      <p>Gnolls are infamous among races such as humans and elves for their brutality and demonic heritage. For the most part, they aren't wrong. Many gnoll packs are indeed aggressive and have a demonic side to their affairs. Typically they worship the demon lord Yeenoghu. They also tend to be rather aggressive and are still mistrusted and avoided. To them, the pack is more important than anything else.</p> 
+      <h4>Physical Appearance</h4>
+      <p>Demon-worshiping is not the only reason many races are wary of gnolls. A lean, muscular 7-foot tall gnoll can be an imposing sight. Despite their musculature, they move rather quickly, easily outpacing most other races. Gnolls also outpace most other races in how quickly they mature. A gnoll matures by the age of 5 and lives to be about 30. Oddly a gnoll's vitality will remain with them until very soon before their natural death. Gnolls have reflective eyes that are typically bright green or yellow. They also have a thick coat of fur, which is generally light brown or dark brown. Certain clans may possess a single-colored coat or a spotted or striped coat. Some gnolls possess crest like manes of hair going from their head down their spine which rise up when they become frightened or angry. Adding to other races distrust about gnolls, occasionally a gnoll's demonic ancestry will result in peculiar physical traits. This might be manifested in the claws of gnoll claw fighters or an abnormal eye or coat colors.</p>
+      <p class="indent"></p>
+      <h4>History</h4>
+      <p>Gnolls are widely known as raiders and slavers. In the middle of the night, they attack a village or town, killing and eating guards and taking slaves. These slaves are then brutalized physically and mentally. This has become an art among many gnoll tribes. In fact, many gnoll tribes have “tantekurash” or “spirit breakers” who are experts at breaking the wills of slaves. If the slave resists, it is eaten. Occasionally a slave’s mind becomes so broken they revere the brutality of their gnoll captors. They then become “kryshantel” or “savage souls” who follow their gnoll masters into battle as thralls. However, not all gnoll tribes are evil. There are a scattered few nomadic tribes who specialize as hunters and trappers. They may even come to peacefully interact with other races and often offer their service as hunters or trappers. Even so, they remain fairly aggressive and quick to anger, so other races have to be careful not to offend them. In addition to the typical variety of gnoll, there is a sub-race known as flind gnolls. They tend to be shorter and stouter than other gnolls, use flindbars more commonly, and live in more hilly areas than other gnolls who live in plains. Flind gnolls can be either raiders or hunters as described above. If you want to play a flind gnoll, make yourself somewhat short and stout and consider using a flindbar. </p>
+      <p class="indent"></p>
+      <h4>Society</h4>
+      <p>While there may be struggles within packs to determine who the alpha is, throughout these conflicts, both sides remain allies. To gnolls, the good of the pack is far more important than any personal glory. As a result, gnolls can be loyal to a fault to their chosen pack. In battle gnolls strive endlessly to prevent their packmates from being harmed, even taking an injury themselves. Furthermore, a gnoll's mind is undeniably primal. They are natural predators and love the thrill and challenge of the hunt. This has resulted in a few traits in most gnolls. For the most part, gnolls prefer the wilds to any sort of urban area, though there are exceptions who see a city as a unique form of wilderness. Moreover, gnolls typically avoid diplomacy in favor of intimidating an answer out of others. It is simpler that way. </p>
+      <p class="indent"></p>
+      <h4>Gnoll Names</h4>
+      <p>The brutality of gnolls is reflected even in their names which tend to have many harsh consonants.</p>
+      <p>
+        <b>Male Names: </b>Dagnyr, Dhyrn, Doryc, Ghyrryn, Gnasc, Gnoryc, Gnyrn, Hyrn, Lhoryn, Lhyr, Mognyr, Sorgnyn, Thyrn, Toryc, Yrgnyn, Yrych
+        <br/>
+        <b>Female Names: </b>Dagnyra, Gnara, Gnora, Gnyrl, Hyra, Hyrgna, Lhyra, Lhyrl, Malgna, Myrl, Sargna, Shyrla, Tarnyra, Yrgna
+        <br/>
+      </p>
+      <p class="indent"></p>
+      <span class="feature">Ability Score Increase.</span>Your Strength increases by 2, and your Dexterity increases by 1.<br/>
+      <span class="feature">Age.</span>Gnoll reach maturity around the age of 15 and live for about 150 years though most don't reach the age of 40 due to their way of life.<br/>
+	    <span class="feature">Alignment</span>The Gnoll mostly tend towards more chaotic alignments.<br/>
+      <span class="feature">Size.</span>Gnoll stand at about 6 to 7 feet tall. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+      <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+      <span class="feature">Bite.</span>You are proficient with your bite attack, which is a melee weapon attack that deals 1d8 piercing damage plus your Strength modifier.<br/>
+      <span class="feature">Rampage.</span>When you reduce a creature to 0 hit points with a melee attack on your turn, you may, as a bonus action to move up to half your speed and make a bite attack.<br/>
+      <span class="feature">Frightful Appearance.</span>You are proficient in the Intimidation skill.<br/>
+      <span class="feature">Feat.</span>You gain a starting feat to choose from.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="names" type="male">Dagnyr, Dhyrn, Doryc, Ghyrryn, Gnasc, Gnoryc, Gnyrn, Hyrn, Lhoryn, Lhyr, Mognyr, Sorgnyn, Thyrn, Toryc, Yrgnyn, Yrych</set>
+      <set name="names" type="female">Dagnyra, Gnara, Gnora, Gnyrl, Hyra, Hyrgna, Lhyra, Lhyrl, Malgna, Myrl, Sargna, Shyrla, Tarnyra, Yrgna</set>
+      <set name="height" modifier="2d6">5'11"</set>
+      <set name="weight" modifier="2d4">210 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2"/>
+      <stat name="dexterity" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <select type="Feat" name="Feat (Human Variant)" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_MM_LANGUAGE_GNOLL" />
+      <grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GNOLL_BITE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+    </rules>
+  </element>
+  
+   <element name="Bite" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_GNOLL_BITE">
+    <description>
+			<p> You are proficient with your bite attack, which is a melee weapon attack that deals 1d8 piercing damage plus your Strength modifier.</p>
+		</description>
+		<sheet display="true">
+			<description> You are proficient with your bite attack, which is a melee weapon attack that deals 1d8 piercing damage plus your Strength modifier.</description>
+		</sheet>
+  </element>
+  <element name="Rampage" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_Rampage">
+    <description>
+      <p>When you reduce a creature to 0 hit points with a melee attack on your turn, you may, as a bonus action to move up to half your speed and make a bite attack.</p>
+    </description>
+    <sheet display="true">
+      <description>When you reduce a creature to 0 hit points with a melee attack on your turn, you may, as a bonus action to move up to half your speed and make a bite attack.</description>
+    </sheet>
+  </element>
+</elements>

@@ -1,0 +1,132 @@
+<elements>
+    <element name="Greathammer" type="Weapon" source="Homebrew" id="ID_BREW_WEAPON_GREATHAMMER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">80</set>
+			<set name="weight" lb="7">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="bludgeoning">1d12</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATHAMMER</set>
+		</setters>
+	</element>
+
+    <element name="Ring of Protection +2" type="Magic Item" source="Homebrew" id="ID_BREW_MAGIC_ITEM_RING_OF_PROTECTION_+2">
+		<description>
+			<p>You gain a +2 bonus to AC and saving throws while wearing this ring.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="2" />
+			<stat name="strength:save:misc" value="2" />
+			<stat name="dexterity:save:misc" value="2" />
+			<stat name="constitution:save:misc" value="2" />
+			<stat name="intelligence:save:misc" value="2" />
+			<stat name="wisdom:save:misc" value="2" />
+			<stat name="charisma:save:misc" value="2" />
+		</rules>
+	</element>
+
+    <element name="Ring of Protection +3" type="Magic Item" source="Homebrew" id="ID_BREW_MAGIC_ITEM_RING_OF_PROTECTION_+3">
+		<description>
+			<p>You gain a +3 bonus to AC and saving throws while wearing this ring.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="3" />
+			<stat name="strength:save:misc" value="3" />
+			<stat name="dexterity:save:misc" value="3" />
+			<stat name="constitution:save:misc" value="3" />
+			<stat name="intelligence:save:misc" value="3" />
+			<stat name="wisdom:save:misc" value="3" />
+			<stat name="charisma:save:misc" value="3" />
+		</rules>
+	</element>
+
+    <element name="Mighty Composite Longbow" type="Weapon" source="Homebrew" id="ID_BREW_WEAPON_Mighty_Composite_Longbow">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+		<description>
+			<p>This weapon requires a Strength score of minimum 12 to properly use. A Strength of 16 increases the range to 200/800. And a Strength of 20 grants its wielder Advantage when attacking an enemy within 50 feet with it, due to it's Armor Piercing shots.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">70</set>
+			<set name="weight" lb="2">8 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">150/600</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_Mighty_Composite_Longbow</set>
+		</setters>
+	</element>
+
+	<element name="Small Shield" type="Armor" source="HOMEBREW" id="ID_BREW_GEAR_SMALL_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>A shield is made from wood or metal and is carried in one hand. Wielding a small shield increases your Armor Class by 1. You can benefit from only one shield at a time.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">3 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SMALL_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:small shield" value="1" bonus="shield" />
+		</rules>
+	</element>
+
+	<element name="Large Shield" type="Armor" source="Homebrew" id="ID_BREW_GEAR_LARGE_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>A shield is made from wood or metal and is carried in one hand. Wielding a large shield increases your Armor Class by 3. You can benefit from only one shield at a time.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">10 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+3</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LARGE_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:large shield" value="3" bonus="shield" />
+		</rules>
+	</element>
+
+	<element name="Throwing Needle" type="Weapon" source="Homebrew" id="ID_BREW_WEAPON_THROWING_NEEDLE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>The Throwing Needle is a weapon of finesse and precision. It takes much training to throw one accurately enough. When used, these are more often used for targeting pressure points and nonlethal practice. When a hit is achieved, the user can force the target to make a DC 15 Constitution saving throw or become stunned for 1 round. Due to the nature of the physical shock the body goes through, and the accuracy required, the user can only do this once per encounter per target.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">40/80</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DART</set>
+		</setters>
+	</element>
+</elements>

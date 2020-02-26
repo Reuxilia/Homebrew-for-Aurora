@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Crocadilian</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Crocadilian.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Crocadilian" type="Race" source="Homebrew" id="ID_HMBRW_RACE_CROCADILIAN">
+    <description>
+      <h4>CROCADILIAN</h4>
+      <p>A crocodile sat crying By the river one fine day. His tears fell in the water And were swiftly swept away; But as he sat there crying, From the corner of his eye, He looked around most carefully To see what would pass by. Swimming in the river Was a juicy little frog, Who thought the weeping crocodile Was just a fallen log. He hopped out of the water For a rest there by its side, But as he settled down he saw The crocodile who cried. ”Come closer,” said the crocodile, And wipe away my tear.” The frog jumped backwards quickly And he answered, “No-NO! my dear. I’m sure you’d like to eat me For I know your little game.” And he jumped back in the water And was never seen again. Now listen, little animals, Here’s something you should know, Beware the weeping crocodile, His tears are all for show!: Unknown Elfish poem.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>The crocodilians are humanoid crocodiles that lurk in swamplands. Their tendency to fight can be reflected by their physical appearance. They have a reptilian layer of scales that cover their bodies and a large snout which conceals rows of dangerously sharp teeth. Their hands and feet are also outfitted with sharp claws. They are frequently mistaken as overly-muscular lizardfolk with their thick tails and reptilian appearance.</p>
+      <p class="indent"></p> 
+      <h4>HISTORY</h4>
+      <p>Crocodilians are a rare species related to lizardfolk. They live in swamps that men have learned to avoid, usually for good reason. Little is known about their history because they don't care enough to pass it on. However, through an intensive study by scholars, it is now known that crocodilians used to be the rulers of the lizardfolk until their kingdom was overthrown. It seems as though a rebellion formed against them because of their ruthless nature.</p>
+      <p class="indent"></p>
+      <h4>SOCIETY</h4>
+      <p>Crocodilians live in swampy villages and prefer to be left alone. While they may seem large and fierce, they have a soft side to them that takes years of trust to appear. When they're around those that they have known for a long time, they are rather gentle creatures and care dearly for their allies. Because of their physical appearance, they are often times mistaken as overly-muscular lizardfolk. Crocodillians take pride in their race and will take great offense to those mistaking them as lizardfolk.</p>
+      <p class="indent"></p>
+      <span class="feature">Ability Score Increase.</span>Your Constitution increases by 2, and your Strength increases by 1.<br/>
+      <span class="feature">Age.</span>Crocadilian reach maturity around the age of 50 and live for about 300 years.<br/>
+	    <span class="feature">Alignment</span>When it comes to the morality of the Crocodilians, they vary widely. In terms of Law and Chaos, Crocodilians are often Chaotic, but it is not unheard of for a Crocodilian to be Lawful.<br/>
+      <span class="feature">Size.</span>On average, Crocodilians stand at 6-8 feet tall and weigh around 300-450 pounds. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+      <span class="feature">Tail Attack.</span>You can also use your tail as a weapon. As a bonus action, you can make an attack with your tail against a Large or smaller creature. If the attack hits, the creature must succeed on a Strength saving throw or be knocked prone. The DC for this saving throw is equal to 8 + your Strength modifier + your proficiency bonus. You can't use this trait again until you finish a short or long rest.<br/>
+      <span class="feature">Amphibious.</span>You are an amphibious creature, meaning that you can breathe both air and water.<br/>
+      <span class="feature">Aquatic Hunter.</span>You are proficient in the Stealth skill. In addition, your proficiency bonus is doubled for any Dexterity (Stealth) check you make underwater.<br/>
+      <span class="feature">Crushing Bite.</span>You can use your sharp teeth and powerful jaws as a weapon. Your bite is a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d8 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.<br/>
+      <span class="feature">Natural Armor.</span>You have tough, scaly skin. When you aren't wearing armor, your AC is 13. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.<br/>
+      <span class="feature">Feat.</span>You gain a starting feat to choose from.<br/>
+    </description>
+    <sheet display="true"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">6'0"</set>
+      <set name="weight" modifier="2d6">250 lb.</set>
+    </setters>
+    <rules>
+      <stat name="constitution" value="2"/>
+      <stat name="strength" value="1"/>
+      <stat name="innate speed" value="25" bonus="base"/>
+      <stat name="speed:swim" value="40" bonus="base" />
+      <stat name="natural armor:natural armor" value="13" />
+      <stat name="natural armor:natural armor" value="dexterity:modifier" />
+	  <stat name="ac:calculation" value="natural armor:natural armor" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (natural armor)" />
+      <select type="Feat" name="Feat (Human Variant)" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_Tail_Attack" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_Amphibious" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_Aquatic_Hunter" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_Crushing_Bite" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_Natural_Armor" />
+    </rules>
+  </element>
+
+  <element name="Tail Attack" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_Tail_Attack">
+		<description>
+			<p>You can also use your tail as a weapon. As a bonus action, you can make an attack with your tail against a Large or smaller creature. If the attack hits, the creature must succeed on a Strength saving throw or be knocked prone. The DC for this saving throw is equal to 8 + your Strength modifier + your proficiency bonus. You can't use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="true">
+			<description>You can also use your tail as a weapon. As a bonus action, you can make an attack with your tail against a Large or smaller creature. If the attack hits, the creature must succeed on a Strength saving throw or be knocked prone. The DC for this saving throw is equal to 8 + your Strength modifier + your proficiency bonus. You can't use this trait again until you finish a short or long rest.</description>
+		</sheet>
+		</element> 
+
+  <element name="Amphibious" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_Amphibious">
+		<description>
+			<p>You are an amphibious creature, meaning that you can breathe both air and water.</p>
+		</description>
+		<sheet display="true">
+			<description>You are an amphibious creature, meaning that you can breathe both air and water.</description>
+		</sheet>
+	</element> 
+
+  <element name="Aquatic Hunter" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_Aquatic_Hunter">
+		<description>
+			<p>You are proficient in the Stealth skill. In addition, your proficiency bonus is doubled for any Dexterity (Stealth) check you make underwater.</p>
+		</description>
+		<sheet display="true">
+			<description>You are proficient in the Stealth skill. In addition, your proficiency bonus is doubled for any Dexterity (Stealth) check you make underwater.</description>
+		</sheet>
+	</element> 
+
+  <element name="Crushing Bite" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_Crushing_Bite">
+		<description>
+			<p>You can use your sharp teeth and powerful jaws as a weapon. Your bite is a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d8 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet display="true">
+			<description>You can use your sharp teeth and powerful jaws as a weapon. Your bite is a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d8 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</description>
+		</sheet>
+	</element>
+
+  <element name="Natural Armor" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_Natural_Armor">
+		<description>
+			<p>You have tough, scaly skin. When you aren't wearing armor, your AC is 13. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+		</description>
+		<sheet display="true">
+			<description>You have tough, scaly skin. When you aren't wearing armor, your AC is 13. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</description>
+		</sheet>
+	</element>
+</elements>

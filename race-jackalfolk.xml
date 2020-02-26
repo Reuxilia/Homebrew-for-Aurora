@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Jackelfolk</name>
+		<description></description>
+		<author url="https://www.dandwiki.com/wiki/Jackalfolk_(5e_Race)">Thraintar</author>
+		<update version="1.0">
+			<file name="race-jackalfolk.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Jackalfolk" type="Race" source="Homebrew" id="ID_HMBRW_RACE_JACKALFOLK">
+    <description>
+      <h4>APPEARANCE</h4>
+      <p>Jackalfolk are bipedal humanoids that strongly resemble wild jackals, with similar heads, tails, legs, and fur patterns and colors. They are anatomically similar to other canine beastfolk, but jackalfolk are on the smaller end of the spectrum, generally being shorter and less built than their cousins.</p>
+      <h4>HISTORY</h4>
+      <p>Though they did not start recording their own history until fairly recently, they have lived alongside and co-existed with human desert civilizations for as long as any of them can remember, assisting them with their superior senses and seemingly god-given knowledge of the ways of the world. Some speculate that, long ago, they were given sentience and form by Anubis, so they could carry out his will while he tends to his duties.</p>
+      <h4>SOCIETY</h4>
+      <p>Jackalfolk do not typically have their own society, as they have melded almost perfectly with the other humanoids that inhabit the sands they call home, though occasionally one may find a secluded sect of them living on their own. These small villages are usually centered around a great shrine of one of the gods, in most cases that god being Anubis, or whatever god of death may call the region their domain. Many jackalfolk are highly religious, even the city-dwelling ones usually having a small shrine or token of their patron god in their homes. Jackalfolk also like to decorate their bodies with golden paint, typically around their eyes, necks, and where their limbs meet their torso.</p>
+      <h4>JACKALFOLK TRAITS</h4>
+      <p>Jackalfolk are a quick and wise race.</p>
+      <p>
+      <span class="feature">Ability Score Increase.</span>Your Dexterity score is increased by 2, and your Wisdom score is increased by 1.<br/>
+      <span class="feature">Age.</span>Jackalfolk have somewhat longer lifespans, and grow slower, reaching physical maturity around the age of 20, but many do not die until the age of 250. Their fur starts to grey around 150.<br/>
+	  <span class="feature">Alignment</span>Jackalfolk typically lean towards the lawful and neutral alignments, and are rarely chaotic or any form of evil.<br/>
+      <span class="feature">Size.</span>Jackalfolk are a tall type of beastfolk, typically being a little taller than an average adult human, and weigh accordingly. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+      <span class="feature">Darkvision.</span>Your feral counterpart is well suited for hunting at night, and as such your eyes are adapted to low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+      <span class="feature">Animal Senses.</span>Your sense of smell and hearing is better than most, granting you advantage on Wisdom (Perception), checks involving these senses.<br/>
+      <span class="feature">The Desert Is Your Home.</span>Jackalfolk are a desert-living race, and as such are well-adapted to extremely hot weather conditions, droughts, and feel more at home in sandy environments. You gain advantage on Survival checks made in desert conditions.<br/>
+	  <span class="feature">Devout.</span>Paladin or not, you are a firm worshiper of a god, or at least you've learned plenty about them. You have proficiency in the Religion skill.<br/>
+      </p>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d10">4'0"</set>
+      <set name="weight" modifier="1d4">80 lb.</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="wisdom" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="ID_LANGUAGE_ANY" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_JACKALFOLK_Animal_Senses" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_JACKALFOLK_Devout" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_JACKALFOLK_The_Desert_Is_Your_Home" />
+    </rules>
+  </element>
+  
+   <element name="Devout" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_JACKALFOLK_Devout">
+    <description>
+			<p> Paladin or not, you are a firm worshiper of a god, or at least you've learned plenty about them. You have proficiency in the Religion skill.</p>
+		</description>
+		<sheet display="false">
+			<description> Paladin or not, you are a firm worshiper of a god, or at least you've learned plenty about them. You have proficiency in the Religion skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+		</rules>
+  </element>
+  
+   <element name="Animal Senses" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_JACKALFOLK_Animal_Senses">
+    <supports />
+    <description>
+      <p>Your sense of smell and hearing is better than most, granting you advantage on Wisdom (Perception), checks involving these senses.</p>
+    </description>
+    <sheet display="true">
+      <description>Your sense of smell and hearing is better than most, granting you advantage on Wisdom (Perception), checks involving these senses.</description>
+    </sheet>
+  </element>
+  
+  <element name="The Desert Is Your Home" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_JACKALFOLK_The_Desert_Is_Your_Home">
+		<description>
+			<p>Jackalfolk are a desert-living race, and as such are well-adapted to extremely hot weather conditions, droughts, and feel more at home in sandy environments. You gain advantage on Survival checks made in desert conditions.</p>
+		</description>
+		<sheet>
+			<description>Jackalfolk are a desert-living race, and as such are well-adapted to extremely hot weather conditions, droughts, and feel more at home in sandy environments. You gain advantage on Survival checks made in desert conditions.</description>
+		</sheet>
+	</element>
+</elements>
